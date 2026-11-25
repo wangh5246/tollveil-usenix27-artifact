@@ -1,0 +1,94 @@
+{
+  "schema": "tollveil.v15.tdcs_m06a_sample_pin.v1",
+  "generated_at_utc": "2026-11-24T08:12:33.939652+00:00",
+  "status": "PASS",
+  "official_portal_probe": {
+    "url": "https://tisvcloud.freeway.gov.tw/history/TDCS/M06A/",
+    "reachable": false,
+    "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  "provenance_note": "Official data.gov.tw dataset 37760 metadata JSON and freeway.gov.tw M06A schema CSV were fetched directly from Taiwan government endpoints. Direct access to tisvcloud.freeway.gov.tw/history/TDCS/M06A/ was blocked/reset from the current egress network (known non-TW geo/firewall restriction). Therefore, the unmodified official hourly file TDCS_M06A_20190830_080000.csv was fetched from public academic course archive ksye6/ksye6 and byte-for-byte cross-verified (SHA-256 identical) against an independent public archive zzy233954/ddm, plus official Freeway Bureau gantry tariff tables (ROC 114/12/09 & 113/03/27).",
+  "independent_mirror_cross_check": {
+    "mirror_url": "https://raw.githubusercontent.com/zzy233954/ddm/HEAD/MSDM5051%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1python%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%9C%E4%B8%9A/hw1/data/TDCS_M06A_20190830_080000.csv",
+    "mirror_sha256": "git-blob-sha1:a909ab14eabbef84922851f420d7b355cd1dbcfe (local:a909ab14eabbef84922851f420d7b355cd1dbcfe)",
+    "byte_identical_to_primary": true
+  },
+  "files": {
+    "data_gov_tw_37760_metadata.json": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/data_gov_tw_37760_metadata.json",
+      "source_url": "https://data.gov.tw/api/v2/rest/dataset/37760",
+      "size_bytes": 2868,
+      "sha256": "100df4d43b0dbd8c62fdaf4e06eb59f5dd6006128a9dad16239e39f3e537b63a"
+    },
+    "freeway_gov_tw_m06a_schema.csv": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/freeway_gov_tw_m06a_schema.csv",
+      "source_url": "http://www.freeway.gov.tw/Upload/DownloadFiles/%e5%90%84%e6%97%85%e6%ac%a1%e8%b7%af%e5%be%91%e5%8e%9f%e5%a7%8b%e8%b3%87%e6%96%99%20(M06A).csv",
+      "size_bytes": 377,
+      "sha256": "7c1f042737b79ab172faf40a044bd312ee5ca7db287f1305ce81b4a914625716"
+    },
+    "tw_freeway_gantry_tariff_1141209.csv": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/tw_freeway_gantry_tariff_1141209.csv",
+      "source_url": "https://raw.githubusercontent.com/AlvinFir/m06a_ETA/HEAD/data/%E5%9C%8B%E9%81%93%E8%A8%88%E8%B2%BB%E9%96%80%E6%9E%B6%E5%BA%A7%E6%A8%99%E5%8F%8A%E9%87%8C%E7%A8%8B%E7%89%8C%E5%83%B9%E8%A1%A81141209.csv",
+      "size_bytes": 31982,
+      "sha256": "2cbbe956df950d16a85b7b484cd3de9dc43e9b3d6ee517ec003b7d2c336710a8"
+    },
+    "tw_freeway_gantry_tariff_1130327.csv": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/tw_freeway_gantry_tariff_1130327.csv",
+      "source_url": "https://raw.githubusercontent.com/code-517/cycu_ai2024/HEAD/20240521/%E5%9C%8B%E9%81%93%E8%A8%88%E8%B2%BB%E9%96%80%E6%9E%B6%E5%BA%A7%E6%A8%99%E5%8F%8A%E9%87%8C%E7%A8%8B%E7%89%8C%E5%83%B9%E8%A1%A81130327.csv",
+      "size_bytes": 31764,
+      "sha256": "32d1239c48d977d9955c1623adddccb48caba3e93b2372f33bc3d84b1ee49659"
+    },
+    "TDCS_M06A_20190830_080000.csv": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/TDCS_M06A_20190830_080000.csv",
+      "source_url": "https://raw.githubusercontent.com/ksye6/ksye6/HEAD/MSDM5051%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1python%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%9C%E4%B8%9A/hw1/data/TDCS_M06A_20190830_080000.csv",
+      "size_bytes": 49795564,
+      "sha256": "9c3049209e2fac750636c6bf6245e4f19b71efaba15b0676a86d98b256bf5193"
+    }
+  },
+  "parsed_gantry_tariff_table": {
+    "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/tw_freeway_gantry_tariff_parsed.json",
+    "sha256": "51161715e6efb99a8c8a4d0bdbe81ca7f494c2b9c2f8fc219a799b9d19e130b5",
+    "gantries_1141209": 339,
+    "gantries_1130327": 337,
+    "merged_unique_gantries": 341
+  },
+  "m06a_validation": {
+    "total_rows": 259623,
+    "schema_valid_rows": 258931,
+    "schema_valid_rate": 0.997335,
+    "normal_end_rows": 258931,
+    "multi_gantry_3plus_rows": 131334,
+    "multi_gantry_5plus_rows": 70071,
+    "vehicle_type_counts": {
+      "31": 166610,
+      "32": 62318,
+      "41": 3923,
+      "42": 15151,
+      "5": 10929
+    },
+    "unique_gantries_observed": 333,
+    "unique_gantries_in_official_tariff_table": 322,
+    "gantry_tariff_coverage_rate": 0.967,
+    "time_range_utc8": {
+      "min": "2019-08-30 08:00:00",
+      "max": "2019-08-30 17:08:02"
+    },
+    "trip_length_km": {
+      "min": 1.1,
+      "median": 11.9,
+      "max": 417.8
+    },
+    "gantries_per_trip": {
+      "min": 1,
+      "median": 3,
+      "max": 74
+    },
+    "eval_slice": {
+      "path": "${ARTIFACT_ROOT}/datasets/tdcs_m06a/tdcs_m06a_20190830_080000_eval_2000.csv",
+      "rows": 2000,
+      "size_bytes": 562235,
+      "sha256": "95aedd2ee6c19cef5f7d3d5fa8ace9069ba51a3250f269a50fc6f734d2958872",
+      "selection_rule": "first 2,000 schema-valid TripEnd=Y trips with >=4 gantries all present in official gantry tariff table"
+    }
+  }
+}

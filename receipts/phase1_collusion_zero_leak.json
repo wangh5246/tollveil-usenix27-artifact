@@ -1,0 +1,131 @@
+{
+  "schema": "tollveil.v15.phase1_collusion_zero_leak.v1",
+  "generated_at_utc": "2026-11-24T08:21:20.854084+00:00",
+  "status": "PASS",
+  "tested_session_pairs": 12,
+  "infra_broadcaster_view_byte_identical": true,
+  "extra_mutual_information_bits": 0.0,
+  "legacy_v14_registrar_leak_bits_contrast": 1.0,
+  "pairs": [
+    {
+      "pair_idx": 0,
+      "corridor_id": 200,
+      "epoch_id": 2026112408,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "dba90d6b5d063a04f96e1bbba0407d80ae064d499ecba20aa3f656cfb215299e",
+      "view_b_sha256": "dba90d6b5d063a04f96e1bbba0407d80ae064d499ecba20aa3f656cfb215299e",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 1,
+      "corridor_id": 201,
+      "epoch_id": 2026112409,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "3cff6c712de6c5bc6a1a759d7ded36198fc21478bcf7bd1bac6443d71476a444",
+      "view_b_sha256": "3cff6c712de6c5bc6a1a759d7ded36198fc21478bcf7bd1bac6443d71476a444",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 2,
+      "corridor_id": 202,
+      "epoch_id": 2026112410,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "4b820252e065f394f2fc686d15675f30e024a1981fcb4782ea0da2d260439b17",
+      "view_b_sha256": "4b820252e065f394f2fc686d15675f30e024a1981fcb4782ea0da2d260439b17",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 3,
+      "corridor_id": 203,
+      "epoch_id": 2026112411,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "96d3826eb7a5f25c9ab7801b531c1bd21839f4d6a1c72b11884c0dfff234a0ea",
+      "view_b_sha256": "96d3826eb7a5f25c9ab7801b531c1bd21839f4d6a1c72b11884c0dfff234a0ea",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 4,
+      "corridor_id": 204,
+      "epoch_id": 2026112412,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "5dee5980648397ce3f9d03b5f19ae6dd0b09cfbee7836baf0af2be11c70d0b45",
+      "view_b_sha256": "5dee5980648397ce3f9d03b5f19ae6dd0b09cfbee7836baf0af2be11c70d0b45",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 5,
+      "corridor_id": 205,
+      "epoch_id": 2026112413,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "4d4803cae31d8a0de60911935321171f8ae86012dade181418f75b4b5e99bdf0",
+      "view_b_sha256": "4d4803cae31d8a0de60911935321171f8ae86012dade181418f75b4b5e99bdf0",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 6,
+      "corridor_id": 206,
+      "epoch_id": 2026112414,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "ddd9c2a5c884b61ec28cbf39d71f1cdbbd49080a297e059c136a8a250b552deb",
+      "view_b_sha256": "ddd9c2a5c884b61ec28cbf39d71f1cdbbd49080a297e059c136a8a250b552deb",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 7,
+      "corridor_id": 207,
+      "epoch_id": 2026112415,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "2d5e3d460b76a57096a15feddefc5ad67561d5348dcbe9fabef66d009476366f",
+      "view_b_sha256": "2d5e3d460b76a57096a15feddefc5ad67561d5348dcbe9fabef66d009476366f",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 8,
+      "corridor_id": 208,
+      "epoch_id": 2026112416,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "28572c0e0e563e4937c8cdaa39d068566a1468db3faec89e1f60149bd7088c24",
+      "view_b_sha256": "28572c0e0e563e4937c8cdaa39d068566a1468db3faec89e1f60149bd7088c24",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 9,
+      "corridor_id": 209,
+      "epoch_id": 2026112417,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "4f9493dc91473767aa9ea15c0b42d706ea691126baf6b48061b3e672b5a3493a",
+      "view_b_sha256": "4f9493dc91473767aa9ea15c0b42d706ea691126baf6b48061b3e672b5a3493a",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 10,
+      "corridor_id": 210,
+      "epoch_id": 2026112418,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "6a678dbc18dae8246a329cce796c12783772d618c34e0dfe108c99e0fd23f707",
+      "view_b_sha256": "6a678dbc18dae8246a329cce796c12783772d618c34e0dfe108c99e0fd23f707",
+      "byte_identical": true
+    },
+    {
+      "pair_idx": 11,
+      "corridor_id": 211,
+      "epoch_id": 2026112419,
+      "k_a": 1,
+      "k_b": 3,
+      "view_a_sha256": "18081d55d5c65179b767be587962ec02e03b09cf25bb55437720101a7a4b44d3",
+      "view_b_sha256": "18081d55d5c65179b767be587962ec02e03b09cf25bb55437720101a7a4b44d3",
+      "byte_identical": true
+    }
+  ]
+}

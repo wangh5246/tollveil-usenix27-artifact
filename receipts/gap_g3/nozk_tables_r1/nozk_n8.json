@@ -1,0 +1,21 @@
+{
+  "slots": 8,
+  "signed_offline_rows": 256,
+  "encoded_signed_bytes": 32000,
+  "signature_bytes": 16384,
+  "online_signed_request_median_ms": 0.6186249665915966,
+  "offline_precompute_and_sign_seconds": 0.03901162510737777,
+  "offline_encoding": "canonical binary rows",
+  "offline_stream_sha256": "9e64977118c6c4949efc818c9938e48586823a27fcb10df9632d1fac43924cc9",
+  "online_offline_agreement_probes": 5,
+  "negative_verified": 5,
+  "negative_total": 5,
+  "table_material": "indexed local binary table",
+  "table_path": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/table_n8.bin",
+  "tested_indexed_lookups": 5,
+  "verifier_public_key_hex": "7fe5dc6316fe912e240562cfe5af645638037d43291fdbc9f79041c27a6eaab9",
+  "session_policy_digest": "2ab3221a1acae8b11261605c2f92a30fc132cada202414d30bdbe6dee2fda1ce",
+  "session_id": 3008,
+  "source_signature": "Ed25519 over session, policy, opened subset and coupled bounds",
+  "scope": "synthetic edge-rate corridor with waypoint anchors every four slots"
+}

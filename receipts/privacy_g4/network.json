@@ -1,0 +1,116 @@
+{
+  "model": "two simulated routes, shared reconnect burst and per-message jitter",
+  "samples_per_route": 50000,
+  "seed": 20261124,
+  "traffic_spacing_seconds": 5,
+  "reconnect_cases": [
+    {
+      "burst_probability": 0.02,
+      "median_seconds": 12,
+      "log_sigma": 0.6
+    },
+    {
+      "burst_probability": 0.12,
+      "median_seconds": 26,
+      "log_sigma": 0.6
+    }
+  ],
+  "jitter": "lognormal median 45 ms, log sigma .55, clipped at .5 seconds",
+  "3gpp_context": "TR 37.885, V2X system evaluation methodology; reduced-order delay model is not 3GPP conformance",
+  "fixed_release_schedule_assumed": true,
+  "physical_route_measurement": false,
+  "curve": [
+    {
+      "seconds": 0,
+      "empirical_tv": 0.10558,
+      "union_bound_on_true_tv": 1,
+      "tails": [
+        {
+          "late_sessions": 50000,
+          "n": 50000,
+          "probability": 1.0,
+          "upper95_bonferroni": 1.0
+        },
+        {
+          "late_sessions": 50000,
+          "n": 50000,
+          "probability": 1.0,
+          "upper95_bonferroni": 1.0
+        }
+      ],
+      "distinct_views": [
+        482,
+        885
+      ]
+    },
+    {
+      "seconds": 15,
+      "empirical_tv": 0.09072,
+      "union_bound_on_true_tv": 0.1085723752022393,
+      "tails": [
+        {
+          "late_sessions": 340,
+          "n": 50000,
+          "probability": 0.0068,
+          "upper95_bonferroni": 0.007773512407744327
+        },
+        {
+          "late_sessions": 4872,
+          "n": 50000,
+          "probability": 0.09744,
+          "upper95_bonferroni": 0.10079886279449497
+        }
+      ],
+      "distinct_views": [
+        93,
+        231
+      ]
+    },
+    {
+      "seconds": 60,
+      "empirical_tv": 0.01012,
+      "union_bound_on_true_tv": 0.011622900380500258,
+      "tails": [
+        {
+          "late_sessions": 4,
+          "n": 50000,
+          "probability": 8e-05,
+          "upper95_bonferroni": 0.00024555665176612275
+        },
+        {
+          "late_sessions": 510,
+          "n": 50000,
+          "probability": 0.0102,
+          "upper95_bonferroni": 0.011377343728734135
+        }
+      ],
+      "distinct_views": [
+        5,
+        144
+      ]
+    },
+    {
+      "seconds": 300,
+      "empirical_tv": 0.0,
+      "union_bound_on_true_tv": 0.0002029966500022377,
+      "tails": [
+        {
+          "late_sessions": 0,
+          "n": 50000,
+          "probability": 0.0,
+          "upper95_bonferroni": 0.00010149832500111885
+        },
+        {
+          "late_sessions": 0,
+          "n": 50000,
+          "probability": 0.0,
+          "upper95_bonferroni": 0.00010149832500111885
+        }
+      ],
+      "distinct_views": [
+        1,
+        1
+      ]
+    }
+  ]
+}

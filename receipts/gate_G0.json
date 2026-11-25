@@ -1,0 +1,40 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G0",
+  "generated_at_utc": "2026-11-24T08:20:42.929773+00:00",
+  "status": "PASS",
+  "checks": {
+    "G0.1_frozen_inputs_100pct": {
+      "pass": true,
+      "pinned_matched": "4/4",
+      "baseline_repro_matched": "95/95",
+      "receipt": "${ARTIFACT_ROOT}/receipts/frozen_inputs_check.json"
+    },
+    "G0.1_deterministic_compile_3x": {
+      "pass": true,
+      "bench_10k_all_identical": true,
+      "bench_100k_all_identical": true,
+      "bench_100k_non_linear_constraints": 102060,
+      "bench_100k_r1cs_sha256": "7a07fff76c2b9f7ed90c0b1369915ba867334190b4c602e32e9d15466f62fa6a",
+      "bench_100k_wasm_sha256": "eccbf85492fd3ef0704f91e5d8585b1a3dfbd5d81e784467fbf609b439101ca4",
+      "receipts": [
+        "${ARTIFACT_ROOT}/receipts/det_compile_bench_10k.json",
+        "${ARTIFACT_ROOT}/receipts/det_compile_bench_100k.json"
+      ]
+    },
+    "G0.2_controlled_abba_100k": {
+      "pass": true,
+      "pairs": 10,
+      "warmups": 2,
+      "prove_median_A_ms": 925.233,
+      "prove_median_B_ms": 914.237,
+      "prove_rel_dev_pct": 1.1956,
+      "total_median_A_ms": 1369.191,
+      "total_median_B_ms": 1372.113,
+      "total_rel_dev_pct": 0.2132,
+      "prover_max_peak_rss_mb": 209.66,
+      "swap_used_delta_mb": 48.0,
+      "receipt": "${ARTIFACT_ROOT}/receipts/abba_bench_100k.json"
+    }
+  }
+}

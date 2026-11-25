@@ -1,0 +1,18 @@
+{
+  "small_domain_exhaustive_greatest_schedule_check": true,
+  "rome": {
+    "comparisons": 3033,
+    "rows": 337,
+    "exogenous_strict_components_cases": 292,
+    "strict_decisions": 1055,
+    "causal_late_strict_compared_to_sealed": 608
+  },
+  "synthetic": {
+    "comparisons": 810,
+    "rows": 90,
+    "exogenous_strict_components_cases": 0,
+    "strict_decisions": 0,
+    "causal_late_strict_compared_to_sealed": 0
+  },
+  "rome_causal_information": "observed tiers, exact opened edges and distances, registered entry"
+}

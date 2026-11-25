@@ -1,0 +1,71 @@
+{
+  "same_fee_and_refund": true,
+  "terminal_only": {
+    "arm": "hold_terminal_only",
+    "pair_idx": 0,
+    "witness_ms": 16092.411,
+    "prove_ms": 4128.952,
+    "verify_ms": 705.26,
+    "sqlite_tx_ms": 0.626,
+    "total_ms": 20927.248,
+    "prover_peak_rss_mb": 305.62,
+    "verified": true,
+    "communication_bytes": 996,
+    "artifact_sha256": {
+      "proof_hold_terminal_only_0.json": "048d52f2b0029b5ac1778c48b511f05640291c84096df651e5a682def0ea3a22",
+      "public_hold_terminal_only_0.json": "ca38607f6d65bd46bf5ef633661e4e8a1261bc1a41b96d0f78626370c67da44b"
+    }
+  },
+  "staged": [
+    {
+      "arm": "hold_update0",
+      "pair_idx": 0,
+      "witness_ms": 20909.596,
+      "prove_ms": 25762.489,
+      "verify_ms": 846.407,
+      "sqlite_tx_ms": 3.78,
+      "total_ms": 47522.273,
+      "prover_peak_rss_mb": 329.61,
+      "verified": true,
+      "communication_bytes": 1069,
+      "artifact_sha256": {
+        "proof_hold_update0_0.json": "cf849c6a2f7b66d27b9a021132ceebda4dbd9f48435f5b135772c728fd4c3517",
+        "public_hold_update0_0.json": "68b51e91d63fab4f14153848697353ec8a9421d4f12fc1b41d45fb25cacef645"
+      }
+    },
+    {
+      "arm": "hold_update1",
+      "pair_idx": 0,
+      "witness_ms": 17773.954,
+      "prove_ms": 2917.846,
+      "verify_ms": 700.909,
+      "sqlite_tx_ms": 0.188,
+      "total_ms": 21392.898,
+      "prover_peak_rss_mb": 388.92,
+      "verified": true,
+      "communication_bytes": 1068,
+      "artifact_sha256": {
+        "proof_hold_update1_0.json": "27827a5b5a106f74a5074b52e2b4c890058193c328db4a577641ad742c602132",
+        "public_hold_update1_0.json": "3972ea8d19c188200d13bcaad072a91ee788e8f91f7f9ce10886a9fdb83022b5"
+      }
+    },
+    {
+      "arm": "hold_staged_close",
+      "pair_idx": 0,
+      "witness_ms": 17851.13,
+      "prove_ms": 4450.233,
+      "verify_ms": 763.097,
+      "sqlite_tx_ms": 0.17,
+      "total_ms": 23064.629,
+      "prover_peak_rss_mb": 321.56,
+      "verified": true,
+      "communication_bytes": 999,
+      "artifact_sha256": {
+        "proof_hold_staged_close_0.json": "5575f9129edc66299933739f11d4772f849c25a39b9dfd6a15f0a03f1ad5dfc1",
+        "public_hold_staged_close_0.json": "65a2539b878bd4eaf9de54fbf8145952051558b014a45804ecfab444920b5502"
+      }
+    }
+  ],
+  "policy": "When releases are disabled and the terminal cache is available, use one close proof.",
+  "timing": "single-run diagnostic; no adjusted ABBA ratio"
+}

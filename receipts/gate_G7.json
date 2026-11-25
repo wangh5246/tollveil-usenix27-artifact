@@ -1,0 +1,33 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G7",
+  "generated_at_utc": "2026-11-25T02:18:18.922356+00:00",
+  "status": "PASS",
+  "checks": {
+    "predecessor": {
+      "gate": "G6",
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/gate_G6.json"
+    },
+    "G7.1_v15_manuscript_and_180dpi_checks": {
+      "pass": true,
+      "main_body_end_page": 13,
+      "references_start_page": 14,
+      "total_pages": 19,
+      "cited_references_count": 44,
+      "facts_macros_checked": 82,
+      "overfull_count": 0,
+      "we_us_hits": 0,
+      "visual_inspection_180dpi": "PASS (all key figures/tables/pages inspected; 0 overlaps/clips)",
+      "receipt": "${ARTIFACT_ROOT}/receipts/manuscript_verify_g7.json"
+    },
+    "G7.2_live_current_paper_refreshed": {
+      "pass": true,
+      "v14_backup_sha256": "d1bda1f7a4804c7b31cf1edaac20212f11de1c58ff7c1d8797e6831a490561ab",
+      "v15_live_pdf_sha256": "28964c2cc44f7bbadc668c1dbdb57221b2d750bfb928267c740946709a8bb298",
+      "desktop_symlink_matches": true,
+      "live_pdf_path": "${WORKSPACE_ROOT}/\u5f53\u524d\u8bba\u6587/TollVeil.pdf",
+      "receipt": "${ARTIFACT_ROOT}/receipts/manuscript_verify_g7_live.json"
+    }
+  }
+}

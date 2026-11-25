@@ -1,0 +1,145 @@
+{
+  "schema": "tollveil.v15.phase6.unified_baseline_comparison.v1",
+  "generated_at_utc": "2026-11-24T15:19:32.678654+00:00",
+  "status": "PASS",
+  "rows": [
+    {
+      "system": "Plaintext RUC",
+      "venue": "Baseline",
+      "trajectory_privacy": "None",
+      "early_refund_before_close": "Yes (trivial)",
+      "offline_obu_after_slot": "Yes",
+      "corroborated_fault_waiver": "Yes",
+      "prover_step_ms": 0.1,
+      "verify_ms": 0.1,
+      "payload_bytes": 128,
+      "notes": "Exposes full route to Charger"
+    },
+    {
+      "system": "No-ZK Online Source",
+      "venue": "Same-trust baseline (G3)",
+      "trajectory_privacy": "Leaks corridor & open times to HSM",
+      "early_refund_before_close": "Yes",
+      "offline_obu_after_slot": "No (online HSM per update)",
+      "corroborated_fault_waiver": "Requires HSM policy update",
+      "prover_step_ms": 0.12,
+      "verify_ms": 0.15,
+      "payload_bytes": 125,
+      "notes": "Requires trusted HSM firmware update per road tariff change"
+    },
+    {
+      "system": "No-ZK Offline Table (n=16)",
+      "venue": "Same-trust baseline (G3)",
+      "trajectory_privacy": "Hides route from Charger",
+      "early_refund_before_close": "Yes",
+      "offline_obu_after_slot": "Yes",
+      "corroborated_fault_waiver": "No (2^n blowup)",
+      "prover_step_ms": null,
+      "verify_ms": 0.15,
+      "payload_bytes": 8192000,
+      "notes": "65,536 sigs / 8.19 MB at n=16; 1,048,576 sigs / 131.1 MB at n=20"
+    },
+    {
+      "system": "PrETP",
+      "venue": "USENIX Security 2010",
+      "trajectory_privacy": "Homomorphic Pedersen",
+      "early_refund_before_close": "No (post-trip audit)",
+      "offline_obu_after_slot": "Yes",
+      "corroborated_fault_waiver": "No",
+      "prover_step_ms": 19.03,
+      "verify_ms": 19.03,
+      "payload_bytes": 2624,
+      "notes": "8-slot homomorphic check (frozen repro); no mid-trip escrow release"
+    },
+    {
+      "system": "Bulletproofs ERP (literature)",
+      "venue": "Literature anchor (Bunz et al. S&P 2018)",
+      "trajectory_privacy": "Range-proof fee hiding",
+      "early_refund_before_close": "No (fixed-path sum)",
+      "offline_obu_after_slot": "Yes",
+      "corroborated_fault_waiver": "No",
+      "prover_step_ms": null,
+      "verify_ms": null,
+      "payload_bytes": 672,
+      "notes": "No coupled graph reachability or partial-evidence upper bound"
+    },
+    {
+      "system": "FairStream",
+      "venue": "IEEE TPDS 2023",
+      "trajectory_privacy": "None (plaintext chunks)",
+      "early_refund_before_close": "No (0 withdrawable until PoM/end)",
+      "offline_obu_after_slot": "No",
+      "corroborated_fault_waiver": "PoM dispute only",
+      "prover_step_ms": 0.5,
+      "verify_ms": 0.5,
+      "payload_bytes": 256,
+      "notes": "On-chain 416,007 opt / 112,176 PoM gas; 0 early cash release"
+    },
+    {
+      "system": "CAPE",
+      "venue": "IEEE TDSC 2025",
+      "trajectory_privacy": "ZK amount/state hiding",
+      "early_refund_before_close": "No (0 before VTD T)",
+      "offline_obu_after_slot": "No",
+      "corroborated_fault_waiver": "No",
+      "prover_step_ms": 36834.2,
+      "verify_ms": 15.1,
+      "payload_bytes": 42752,
+      "notes": "1,562,212 R1CS constraints (C_Update); 20,512 B RSA VTD"
+    },
+    {
+      "system": "FairRelay",
+      "venue": "IEEE TDSC 2026",
+      "trajectory_privacy": "ZK PoF128 relay hiding",
+      "early_refund_before_close": "No (0 withdrawable until settle)",
+      "offline_obu_after_slot": "No",
+      "corroborated_fault_waiver": "PoF dispute",
+      "prover_step_ms": 6013.8,
+      "verify_ms": 256.84,
+      "payload_bytes": 192,
+      "notes": "75,177 R1CS (PoF128) + 2,421,188 gas Judge.sol"
+    },
+    {
+      "system": "MicroNova IVC",
+      "venue": "IEEE S&P 2025",
+      "trajectory_privacy": "Folding IVC (4x8 step)",
+      "early_refund_before_close": "Requires final compress",
+      "offline_obu_after_slot": "Yes (incremental fold)",
+      "corroborated_fault_waiver": "Not built-in",
+      "prover_step_ms": 172.8,
+      "verify_ms": 26.12,
+      "payload_bytes": 12381,
+      "notes": "16,705+10,538 step constraints; 5,209.61 ms HyperKZG+PPSNARK final compression"
+    },
+    {
+      "system": "TollVeil (M06A Freeway)",
+      "venue": "This paper (v15)",
+      "trajectory_privacy": "ZK + Bayes-LP + buffered TV<=0.010",
+      "early_refund_before_close": "Yes (exact coupled U*, zero-fee rolling margin)",
+      "offline_obu_after_slot": "Yes (EdDSA-Poseidon stream)",
+      "corroborated_fault_waiver": "Yes (public M_infra, 0-bit collusion leak)",
+      "prover_step_ms": 154.712,
+      "verify_ms": 7.861,
+      "payload_bytes": 996,
+      "notes": "52360 R1CS; 108/108 real proofs verified on Taiwan TDCS M06A"
+    },
+    {
+      "system": "TollVeil (Rome 396-Cell)",
+      "venue": "This paper (v15)",
+      "trajectory_privacy": "ZK + Bayes-LP + buffered TV<=0.010",
+      "early_refund_before_close": "Yes (exact coupled U*, zero-fee rolling margin)",
+      "offline_obu_after_slot": "Yes (EdDSA-Poseidon stream)",
+      "corroborated_fault_waiver": "Yes (public M_infra, 0-bit collusion leak)",
+      "prover_step_ms": 730.731,
+      "verify_ms": 7.845,
+      "payload_bytes": 1074,
+      "notes": "356,837 R1CS; 220/220 real 396-cell proofs; 427.7 MB peak RSS (<2 GB)"
+    }
+  ],
+  "provenance": {
+    "baseline_repro_r1_summary": "${WORKSPACE_ROOT}/outputs/waybill-revision/2026-11-22/baseline-repro-r1/SUMMARY_RECEIPT.json",
+    "g3_nozk_n16": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n16.json",
+    "rome_holdout_396": "${ARTIFACT_ROOT}/receipts/phase6/rome_holdout_396.json",
+    "m06a_freeway_corridor": "${ARTIFACT_ROOT}/receipts/phase6/m06a_freeway_corridor.json"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "source_id_counts": [
+    10,
+    10
+  ],
+  "calibration_blocks": 476,
+  "holdout_blocks": 337,
+  "reserved_source_ids": 1,
+  "reserved_blocks": 43,
+  "identity_overlap": 0,
+  "held_out_population": "856 eligible frozen r8 Rome blocks, partitioned by source taxi ID",
+  "calibration_rows": 476,
+  "heldout_rows": 337,
+  "terminal_group_counts": {
+    "1": 242,
+    "3": 6,
+    "2": 16,
+    "7": 1,
+    "4": 2,
+    "8": 1,
+    "5": 2,
+    "6": 2
+  },
+  "policy_grid_amount": 1000,
+  "decision_slot": 4,
+  "uniform_bucket_units": 2000,
+  "fit": {
+    "exact": {
+      "utility_integral_mean": 263949.5798319328,
+      "expected_top1": 0.8592436974789915,
+      "expected_top3": 0.976890756302521,
+      "top1_nonsingleton": 0.4765625,
+      "top3_nonsingleton": 0.9140625,
+      "records_in_nonsingleton_class": 128,
+      "posterior_vulnerability": 0.8923502435115798,
+      "prior_vulnerability": 0.8791900752017385,
+      "min_entropy_leak_bits": 0.02143497228730024,
+      "worst_pointwise_increase": 0.5896743778473419,
+      "outcomes_exceeding_five_pp": 14
+    },
+    "uniform_bucket": {
+      "utility_integral_mean": 261428.57142857142,
+      "expected_top1": 0.8340336134453782,
+      "expected_top3": 0.976890756302521,
+      "top1_nonsingleton": 0.3828125,
+      "top3_nonsingleton": 0.9140625,
+      "records_in_nonsingleton_class": 128,
+      "posterior_vulnerability": 0.8791900752017385,
+      "prior_vulnerability": 0.8791900752017385,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    },
+    "bayes_lp": {
+      "utility_integral_mean": 262025.2100840336,
+      "expected_top1": 0.8340336134453782,
+      "expected_top3": 0.976890756302521,
+      "top1_nonsingleton": 0.3828125,
+      "top3_nonsingleton": 0.9140625,
+      "records_in_nonsingleton_class": 128,
+      "posterior_vulnerability": 0.8791900752017385,
+      "prior_vulnerability": 0.8791900752017385,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    },
+    "hold": {
+      "utility_integral_mean": 0.0,
+      "expected_top1": 0.8340336134453782,
+      "expected_top3": 0.976890756302521,
+      "top1_nonsingleton": 0.3828125,
+      "top3_nonsingleton": 0.9140625,
+      "records_in_nonsingleton_class": 128,
+      "posterior_vulnerability": 0.8791900752017385,
+      "prior_vulnerability": 0.8791900752017385,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    }
+  },
+  "heldout_markov_orders": {
+    "1": {
+      "exact": {
+        "utility_integral_mean": 266825.70919881307,
+        "expected_top1": 0.9317507418397626,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.7578947368421053,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.938295793035112,
+        "prior_vulnerability": 0.863353817207283,
+        "min_entropy_leak_bits": 0.1200908750383653,
+        "worst_pointwise_increase": 0.7768341908841288,
+        "outcomes_exceeding_five_pp": 44
+      },
+      "uniform_bucket": {
+        "utility_integral_mean": 262290.8011869436,
+        "expected_top1": 0.8249258160237388,
+        "expected_top3": 0.9881305637982196,
+        "top1_nonsingleton": 0.37894736842105264,
+        "top3_nonsingleton": 0.9578947368421052,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.863353817207283,
+        "prior_vulnerability": 0.863353817207283,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "bayes_lp": {
+        "utility_integral_mean": 261507.4183976261,
+        "expected_top1": 0.8249258160237388,
+        "expected_top3": 0.9881305637982196,
+        "top1_nonsingleton": 0.37894736842105264,
+        "top3_nonsingleton": 0.9578947368421052,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.863353817207283,
+        "prior_vulnerability": 0.863353817207283,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "hold": {
+        "utility_integral_mean": 0.0,
+        "expected_top1": 0.8249258160237388,
+        "expected_top3": 0.9881305637982196,
+        "top1_nonsingleton": 0.37894736842105264,
+        "top3_nonsingleton": 0.9578947368421052,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.863353817207283,
+        "prior_vulnerability": 0.863353817207283,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      }
+    },
+    "2": {
+      "exact": {
+        "utility_integral_mean": 266825.70919881307,
+        "expected_top1": 0.9228486646884273,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.7263157894736842,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.9441262365124667,
+        "prior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.11720226496654958,
+        "worst_pointwise_increase": 0.740168663317363,
+        "outcomes_exceeding_five_pp": 44
+      },
+      "uniform_bucket": {
+        "utility_integral_mean": 262290.8011869436,
+        "expected_top1": 0.8160237388724035,
+        "expected_top3": 0.9851632047477745,
+        "top1_nonsingleton": 0.3473684210526316,
+        "top3_nonsingleton": 0.9473684210526315,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.8704596999159724,
+        "prior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "bayes_lp": {
+        "utility_integral_mean": 261507.4183976261,
+        "expected_top1": 0.8160237388724035,
+        "expected_top3": 0.9851632047477745,
+        "top1_nonsingleton": 0.3473684210526316,
+        "top3_nonsingleton": 0.9473684210526315,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.8704596999159724,
+        "prior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "hold": {
+        "utility_integral_mean": 0.0,
+        "expected_top1": 0.8160237388724035,
+        "expected_top3": 0.9851632047477745,
+        "top1_nonsingleton": 0.3473684210526316,
+        "top3_nonsingleton": 0.9473684210526315,
+        "records_in_nonsingleton_class": 95,
+        "posterior_vulnerability": 0.8704596999159724,
+        "prior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 1.1102230246251565e-16,
+        "outcomes_exceeding_five_pp": 0
+      }
+    }
+  },
+  "liquidity_gain_relative": -0.0029866956285635737,
+  "lp_pointwise_constraints_met_on_holdout": true,
+  "lp_fit": {
+    "variables": 848,
+    "privacy_inequalities": 5844,
+    "prior_supported_bins": 14
+  },
+  "unseen_cap_rows": 4,
+  "test_refit_diagnostic": {
+    "utility_integral_mean": 262682.49258160236,
+    "expected_top1": 0.8160237388724035,
+    "expected_top3": 0.9851632047477745,
+    "top1_nonsingleton": 0.3473684210526316,
+    "top3_nonsingleton": 0.9473684210526315,
+    "records_in_nonsingleton_class": 95,
+    "posterior_vulnerability": 0.8704596999159724,
+    "prior_vulnerability": 0.8704596999159724,
+    "min_entropy_leak_bits": 0.0,
+    "worst_pointwise_increase": 1.1102230246251565e-16,
+    "outcomes_exceeding_five_pp": 0,
+    "variables": 596,
+    "privacy_inequalities": 4618,
+    "prior_supported_bins": 10,
+    "strongest_eligible_test_refit_bucket_utility": 262290.8011869436,
+    "strongest_eligible_test_refit_bucket_size": 2000
+  }
+}

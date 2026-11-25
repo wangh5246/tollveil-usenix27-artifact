@@ -1,0 +1,56 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G6",
+  "generated_at_utc": "2026-11-25T02:01:07.348673+00:00",
+  "status": "PASS",
+  "checks": {
+    "predecessor": {
+      "gate": "G5",
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/gate_G5.json"
+    },
+    "G6.1_rome_holdout_and_m06a_real_proofs": {
+      "pass": true,
+      "rome_taxi_overlap": 0,
+      "rome_blocks_proved": 55,
+      "rome_proofs_verified": "220/220",
+      "rome_sqlite_errors": 0,
+      "m06a_trips_replayed": 2000,
+      "m06a_statutory_exact_rate": 1.0,
+      "m06a_proofs_verified": "108/108",
+      "m06a_sqlite_errors": 0,
+      "receipts": [
+        "${ARTIFACT_ROOT}/receipts/phase6/rome_holdout_396.json",
+        "${ARTIFACT_ROOT}/receipts/phase6/m06a_freeway_corridor.json"
+      ]
+    },
+    "G6.2_monotonic_abba_n30_and_obu_2gb": {
+      "pass": true,
+      "pairs_per_cell": 30,
+      "vertex_medians_ms": {
+        "8": 146.79,
+        "16": 157.656,
+        "32": 160.12,
+        "64": 221.322,
+        "396": 730.731
+      },
+      "vertex_strictly_monotonic": true,
+      "slot_full_medians_ms": {
+        "4": 142.624,
+        "8": 221.999,
+        "16": 410.718,
+        "32": 810.045
+      },
+      "slot_strictly_monotonic": true,
+      "obu_2gb_oom_count": 0,
+      "obu_2gb_peak_rss_mb": 427.7,
+      "obu_2gb_single_step_median_ms": 4464.018,
+      "unified_table_systems": 11,
+      "receipts": [
+        "${ARTIFACT_ROOT}/receipts/phase6/scaling_abba_n30.json",
+        "${ARTIFACT_ROOT}/receipts/phase6/obu_2gb_and_delegated.json",
+        "${ARTIFACT_ROOT}/receipts/phase6/unified_baseline_comparison.json"
+      ]
+    }
+  }
+}

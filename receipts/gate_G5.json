@@ -1,0 +1,35 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G5",
+  "generated_at_utc": "2026-11-24T14:29:56.486256+00:00",
+  "status": "PASS",
+  "checks": {
+    "predecessor": {
+      "gate": "G4",
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/gate_G4.json"
+    },
+    "G5.1_compiled_wire_alignment": {
+      "pass": true,
+      "verified_relations": 14,
+      "verified_public_inputs": 150,
+      "public_signal_mismatches": 0,
+      "private_input_mismatches": [],
+      "domain_mismatches": [],
+      "qap_identity_checks_passed": 14,
+      "receipt": "${ARTIFACT_ROOT}/receipts/spec_circuit_alignment_g5.json"
+    },
+    "G5.1_formal_document_review": {
+      "pass": true,
+      "environments": {
+        "definition": 2,
+        "theorem": 3,
+        "lemma": 2,
+        "proof": 5
+      },
+      "scope": "Mathematical proofs under the stated assumptions and compiled interface audit",
+      "receipt": "${ARTIFACT_ROOT}/manuscript/formal_proofs_g5/receipts/formal_review.json",
+      "proofs": "${ARTIFACT_ROOT}/manuscript/formal_proofs_g5/proofs.tex"
+    }
+  }
+}

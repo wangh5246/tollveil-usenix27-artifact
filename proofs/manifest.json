@@ -1,0 +1,2305 @@
+[
+  {
+    "id": "rome_b005_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b005_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b005_r0_update_public.json"
+  },
+  {
+    "id": "rome_b005_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b005_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b005_r1_update_public.json"
+  },
+  {
+    "id": "rome_b005_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b005_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b005_r2_update_public.json"
+  },
+  {
+    "id": "rome_b005_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b005_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b005_r3_close_public.json"
+  },
+  {
+    "id": "rome_b006_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b006_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b006_r0_update_public.json"
+  },
+  {
+    "id": "rome_b006_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b006_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b006_r1_update_public.json"
+  },
+  {
+    "id": "rome_b006_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b006_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b006_r2_update_public.json"
+  },
+  {
+    "id": "rome_b006_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b006_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b006_r3_close_public.json"
+  },
+  {
+    "id": "rome_b007_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b007_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b007_r0_update_public.json"
+  },
+  {
+    "id": "rome_b007_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b007_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b007_r1_update_public.json"
+  },
+  {
+    "id": "rome_b007_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b007_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b007_r2_update_public.json"
+  },
+  {
+    "id": "rome_b007_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b007_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b007_r3_close_public.json"
+  },
+  {
+    "id": "rome_b009_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b009_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b009_r0_update_public.json"
+  },
+  {
+    "id": "rome_b009_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b009_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b009_r1_update_public.json"
+  },
+  {
+    "id": "rome_b009_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b009_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b009_r2_update_public.json"
+  },
+  {
+    "id": "rome_b009_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b009_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b009_r3_close_public.json"
+  },
+  {
+    "id": "rome_b011_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b011_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b011_r0_update_public.json"
+  },
+  {
+    "id": "rome_b011_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b011_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b011_r1_update_public.json"
+  },
+  {
+    "id": "rome_b011_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b011_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b011_r2_update_public.json"
+  },
+  {
+    "id": "rome_b011_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b011_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b011_r3_close_public.json"
+  },
+  {
+    "id": "rome_b014_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b014_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b014_r0_update_public.json"
+  },
+  {
+    "id": "rome_b014_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b014_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b014_r1_update_public.json"
+  },
+  {
+    "id": "rome_b014_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b014_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b014_r2_update_public.json"
+  },
+  {
+    "id": "rome_b014_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b014_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b014_r3_close_public.json"
+  },
+  {
+    "id": "rome_b017_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b017_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b017_r0_update_public.json"
+  },
+  {
+    "id": "rome_b017_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b017_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b017_r1_update_public.json"
+  },
+  {
+    "id": "rome_b017_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b017_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b017_r2_update_public.json"
+  },
+  {
+    "id": "rome_b017_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b017_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b017_r3_close_public.json"
+  },
+  {
+    "id": "rome_b018_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b018_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b018_r0_update_public.json"
+  },
+  {
+    "id": "rome_b018_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b018_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b018_r1_update_public.json"
+  },
+  {
+    "id": "rome_b018_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b018_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b018_r2_update_public.json"
+  },
+  {
+    "id": "rome_b018_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b018_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b018_r3_close_public.json"
+  },
+  {
+    "id": "rome_b019_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b019_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b019_r0_update_public.json"
+  },
+  {
+    "id": "rome_b019_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b019_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b019_r1_update_public.json"
+  },
+  {
+    "id": "rome_b019_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b019_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b019_r2_update_public.json"
+  },
+  {
+    "id": "rome_b019_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b019_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b019_r3_close_public.json"
+  },
+  {
+    "id": "rome_b023_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b023_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b023_r0_update_public.json"
+  },
+  {
+    "id": "rome_b023_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b023_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b023_r1_update_public.json"
+  },
+  {
+    "id": "rome_b023_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b023_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b023_r2_update_public.json"
+  },
+  {
+    "id": "rome_b023_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b023_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b023_r3_close_public.json"
+  },
+  {
+    "id": "rome_b028_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b028_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b028_r0_update_public.json"
+  },
+  {
+    "id": "rome_b028_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b028_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b028_r1_update_public.json"
+  },
+  {
+    "id": "rome_b028_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b028_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b028_r2_update_public.json"
+  },
+  {
+    "id": "rome_b028_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b028_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b028_r3_close_public.json"
+  },
+  {
+    "id": "rome_b055_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b055_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b055_r0_update_public.json"
+  },
+  {
+    "id": "rome_b055_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b055_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b055_r1_update_public.json"
+  },
+  {
+    "id": "rome_b055_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b055_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b055_r2_update_public.json"
+  },
+  {
+    "id": "rome_b055_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b055_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b055_r3_close_public.json"
+  },
+  {
+    "id": "rome_b063_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b063_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b063_r0_update_public.json"
+  },
+  {
+    "id": "rome_b063_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b063_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b063_r1_update_public.json"
+  },
+  {
+    "id": "rome_b063_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b063_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b063_r2_update_public.json"
+  },
+  {
+    "id": "rome_b063_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b063_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b063_r3_close_public.json"
+  },
+  {
+    "id": "rome_b065_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b065_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b065_r0_update_public.json"
+  },
+  {
+    "id": "rome_b065_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b065_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b065_r1_update_public.json"
+  },
+  {
+    "id": "rome_b065_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b065_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b065_r2_update_public.json"
+  },
+  {
+    "id": "rome_b065_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b065_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b065_r3_close_public.json"
+  },
+  {
+    "id": "rome_b068_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b068_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b068_r0_update_public.json"
+  },
+  {
+    "id": "rome_b068_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b068_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b068_r1_update_public.json"
+  },
+  {
+    "id": "rome_b068_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b068_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b068_r2_update_public.json"
+  },
+  {
+    "id": "rome_b068_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b068_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b068_r3_close_public.json"
+  },
+  {
+    "id": "rome_b075_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b075_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b075_r0_update_public.json"
+  },
+  {
+    "id": "rome_b075_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b075_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b075_r1_update_public.json"
+  },
+  {
+    "id": "rome_b075_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b075_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b075_r2_update_public.json"
+  },
+  {
+    "id": "rome_b075_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b075_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b075_r3_close_public.json"
+  },
+  {
+    "id": "rome_b140_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b140_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b140_r0_update_public.json"
+  },
+  {
+    "id": "rome_b140_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b140_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b140_r1_update_public.json"
+  },
+  {
+    "id": "rome_b140_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b140_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b140_r2_update_public.json"
+  },
+  {
+    "id": "rome_b140_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b140_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b140_r3_close_public.json"
+  },
+  {
+    "id": "rome_b141_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b141_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b141_r0_update_public.json"
+  },
+  {
+    "id": "rome_b141_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b141_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b141_r1_update_public.json"
+  },
+  {
+    "id": "rome_b141_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b141_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b141_r2_update_public.json"
+  },
+  {
+    "id": "rome_b141_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b141_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b141_r3_close_public.json"
+  },
+  {
+    "id": "rome_b144_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b144_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b144_r0_update_public.json"
+  },
+  {
+    "id": "rome_b144_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b144_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b144_r1_update_public.json"
+  },
+  {
+    "id": "rome_b144_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b144_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b144_r2_update_public.json"
+  },
+  {
+    "id": "rome_b144_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b144_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b144_r3_close_public.json"
+  },
+  {
+    "id": "rome_b156_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b156_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b156_r0_update_public.json"
+  },
+  {
+    "id": "rome_b156_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b156_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b156_r1_update_public.json"
+  },
+  {
+    "id": "rome_b156_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b156_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b156_r2_update_public.json"
+  },
+  {
+    "id": "rome_b156_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b156_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b156_r3_close_public.json"
+  },
+  {
+    "id": "rome_b160_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b160_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b160_r0_update_public.json"
+  },
+  {
+    "id": "rome_b160_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b160_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b160_r1_update_public.json"
+  },
+  {
+    "id": "rome_b160_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b160_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b160_r2_update_public.json"
+  },
+  {
+    "id": "rome_b160_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b160_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b160_r3_close_public.json"
+  },
+  {
+    "id": "rome_b165_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b165_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b165_r0_update_public.json"
+  },
+  {
+    "id": "rome_b165_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b165_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b165_r1_update_public.json"
+  },
+  {
+    "id": "rome_b165_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b165_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b165_r2_update_public.json"
+  },
+  {
+    "id": "rome_b165_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b165_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b165_r3_close_public.json"
+  },
+  {
+    "id": "rome_b169_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b169_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b169_r0_update_public.json"
+  },
+  {
+    "id": "rome_b169_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b169_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b169_r1_update_public.json"
+  },
+  {
+    "id": "rome_b169_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b169_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b169_r2_update_public.json"
+  },
+  {
+    "id": "rome_b169_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b169_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b169_r3_close_public.json"
+  },
+  {
+    "id": "rome_b177_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b177_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b177_r0_update_public.json"
+  },
+  {
+    "id": "rome_b177_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b177_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b177_r1_update_public.json"
+  },
+  {
+    "id": "rome_b177_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b177_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b177_r2_update_public.json"
+  },
+  {
+    "id": "rome_b177_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b177_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b177_r3_close_public.json"
+  },
+  {
+    "id": "rome_b184_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b184_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b184_r0_update_public.json"
+  },
+  {
+    "id": "rome_b184_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b184_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b184_r1_update_public.json"
+  },
+  {
+    "id": "rome_b184_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b184_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b184_r2_update_public.json"
+  },
+  {
+    "id": "rome_b184_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b184_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b184_r3_close_public.json"
+  },
+  {
+    "id": "rome_b296_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b296_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b296_r0_update_public.json"
+  },
+  {
+    "id": "rome_b296_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b296_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b296_r1_update_public.json"
+  },
+  {
+    "id": "rome_b296_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b296_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b296_r2_update_public.json"
+  },
+  {
+    "id": "rome_b296_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b296_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b296_r3_close_public.json"
+  },
+  {
+    "id": "rome_b305_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b305_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b305_r0_update_public.json"
+  },
+  {
+    "id": "rome_b305_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b305_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b305_r1_update_public.json"
+  },
+  {
+    "id": "rome_b305_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b305_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b305_r2_update_public.json"
+  },
+  {
+    "id": "rome_b305_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b305_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b305_r3_close_public.json"
+  },
+  {
+    "id": "rome_b306_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b306_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b306_r0_update_public.json"
+  },
+  {
+    "id": "rome_b306_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b306_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b306_r1_update_public.json"
+  },
+  {
+    "id": "rome_b306_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b306_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b306_r2_update_public.json"
+  },
+  {
+    "id": "rome_b306_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b306_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b306_r3_close_public.json"
+  },
+  {
+    "id": "rome_b318_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b318_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b318_r0_update_public.json"
+  },
+  {
+    "id": "rome_b318_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b318_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b318_r1_update_public.json"
+  },
+  {
+    "id": "rome_b318_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b318_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b318_r2_update_public.json"
+  },
+  {
+    "id": "rome_b318_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b318_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b318_r3_close_public.json"
+  },
+  {
+    "id": "rome_b319_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b319_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b319_r0_update_public.json"
+  },
+  {
+    "id": "rome_b319_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b319_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b319_r1_update_public.json"
+  },
+  {
+    "id": "rome_b319_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b319_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b319_r2_update_public.json"
+  },
+  {
+    "id": "rome_b319_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b319_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b319_r3_close_public.json"
+  },
+  {
+    "id": "rome_b323_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b323_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b323_r0_update_public.json"
+  },
+  {
+    "id": "rome_b323_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b323_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b323_r1_update_public.json"
+  },
+  {
+    "id": "rome_b323_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b323_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b323_r2_update_public.json"
+  },
+  {
+    "id": "rome_b323_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b323_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b323_r3_close_public.json"
+  },
+  {
+    "id": "rome_b345_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b345_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b345_r0_update_public.json"
+  },
+  {
+    "id": "rome_b345_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b345_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b345_r1_update_public.json"
+  },
+  {
+    "id": "rome_b345_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b345_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b345_r2_update_public.json"
+  },
+  {
+    "id": "rome_b345_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b345_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b345_r3_close_public.json"
+  },
+  {
+    "id": "rome_b385_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b385_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b385_r0_update_public.json"
+  },
+  {
+    "id": "rome_b385_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b385_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b385_r1_update_public.json"
+  },
+  {
+    "id": "rome_b385_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b385_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b385_r2_update_public.json"
+  },
+  {
+    "id": "rome_b385_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b385_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b385_r3_close_public.json"
+  },
+  {
+    "id": "rome_b388_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b388_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b388_r0_update_public.json"
+  },
+  {
+    "id": "rome_b388_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b388_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b388_r1_update_public.json"
+  },
+  {
+    "id": "rome_b388_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b388_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b388_r2_update_public.json"
+  },
+  {
+    "id": "rome_b388_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b388_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b388_r3_close_public.json"
+  },
+  {
+    "id": "rome_b400_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b400_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b400_r0_update_public.json"
+  },
+  {
+    "id": "rome_b400_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b400_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b400_r1_update_public.json"
+  },
+  {
+    "id": "rome_b400_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b400_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b400_r2_update_public.json"
+  },
+  {
+    "id": "rome_b400_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b400_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b400_r3_close_public.json"
+  },
+  {
+    "id": "rome_b482_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b482_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b482_r0_update_public.json"
+  },
+  {
+    "id": "rome_b482_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b482_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b482_r1_update_public.json"
+  },
+  {
+    "id": "rome_b482_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b482_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b482_r2_update_public.json"
+  },
+  {
+    "id": "rome_b482_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b482_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b482_r3_close_public.json"
+  },
+  {
+    "id": "rome_b483_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b483_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b483_r0_update_public.json"
+  },
+  {
+    "id": "rome_b483_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b483_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b483_r1_update_public.json"
+  },
+  {
+    "id": "rome_b483_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b483_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b483_r2_update_public.json"
+  },
+  {
+    "id": "rome_b483_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b483_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b483_r3_close_public.json"
+  },
+  {
+    "id": "rome_b484_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b484_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b484_r0_update_public.json"
+  },
+  {
+    "id": "rome_b484_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b484_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b484_r1_update_public.json"
+  },
+  {
+    "id": "rome_b484_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b484_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b484_r2_update_public.json"
+  },
+  {
+    "id": "rome_b484_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b484_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b484_r3_close_public.json"
+  },
+  {
+    "id": "rome_b485_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b485_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b485_r0_update_public.json"
+  },
+  {
+    "id": "rome_b485_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b485_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b485_r1_update_public.json"
+  },
+  {
+    "id": "rome_b485_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b485_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b485_r2_update_public.json"
+  },
+  {
+    "id": "rome_b485_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b485_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b485_r3_close_public.json"
+  },
+  {
+    "id": "rome_b486_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b486_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b486_r0_update_public.json"
+  },
+  {
+    "id": "rome_b486_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b486_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b486_r1_update_public.json"
+  },
+  {
+    "id": "rome_b486_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b486_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b486_r2_update_public.json"
+  },
+  {
+    "id": "rome_b486_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b486_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b486_r3_close_public.json"
+  },
+  {
+    "id": "rome_b727_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b727_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b727_r0_update_public.json"
+  },
+  {
+    "id": "rome_b727_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b727_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b727_r1_update_public.json"
+  },
+  {
+    "id": "rome_b727_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b727_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b727_r2_update_public.json"
+  },
+  {
+    "id": "rome_b727_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b727_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b727_r3_close_public.json"
+  },
+  {
+    "id": "rome_b728_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b728_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b728_r0_update_public.json"
+  },
+  {
+    "id": "rome_b728_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b728_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b728_r1_update_public.json"
+  },
+  {
+    "id": "rome_b728_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b728_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b728_r2_update_public.json"
+  },
+  {
+    "id": "rome_b728_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b728_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b728_r3_close_public.json"
+  },
+  {
+    "id": "rome_b772_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b772_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b772_r0_update_public.json"
+  },
+  {
+    "id": "rome_b772_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b772_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b772_r1_update_public.json"
+  },
+  {
+    "id": "rome_b772_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b772_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b772_r2_update_public.json"
+  },
+  {
+    "id": "rome_b772_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b772_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b772_r3_close_public.json"
+  },
+  {
+    "id": "rome_b792_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b792_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b792_r0_update_public.json"
+  },
+  {
+    "id": "rome_b792_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b792_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b792_r1_update_public.json"
+  },
+  {
+    "id": "rome_b792_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b792_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b792_r2_update_public.json"
+  },
+  {
+    "id": "rome_b792_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b792_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b792_r3_close_public.json"
+  },
+  {
+    "id": "rome_b794_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b794_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b794_r0_update_public.json"
+  },
+  {
+    "id": "rome_b794_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b794_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b794_r1_update_public.json"
+  },
+  {
+    "id": "rome_b794_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b794_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b794_r2_update_public.json"
+  },
+  {
+    "id": "rome_b794_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b794_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b794_r3_close_public.json"
+  },
+  {
+    "id": "rome_b799_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b799_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b799_r0_update_public.json"
+  },
+  {
+    "id": "rome_b799_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b799_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b799_r1_update_public.json"
+  },
+  {
+    "id": "rome_b799_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b799_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b799_r2_update_public.json"
+  },
+  {
+    "id": "rome_b799_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b799_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b799_r3_close_public.json"
+  },
+  {
+    "id": "rome_b801_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b801_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b801_r0_update_public.json"
+  },
+  {
+    "id": "rome_b801_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b801_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b801_r1_update_public.json"
+  },
+  {
+    "id": "rome_b801_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b801_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b801_r2_update_public.json"
+  },
+  {
+    "id": "rome_b801_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b801_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b801_r3_close_public.json"
+  },
+  {
+    "id": "rome_b808_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b808_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b808_r0_update_public.json"
+  },
+  {
+    "id": "rome_b808_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b808_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b808_r1_update_public.json"
+  },
+  {
+    "id": "rome_b808_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b808_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b808_r2_update_public.json"
+  },
+  {
+    "id": "rome_b808_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b808_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b808_r3_close_public.json"
+  },
+  {
+    "id": "rome_b823_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b823_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b823_r0_update_public.json"
+  },
+  {
+    "id": "rome_b823_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b823_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b823_r1_update_public.json"
+  },
+  {
+    "id": "rome_b823_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b823_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b823_r2_update_public.json"
+  },
+  {
+    "id": "rome_b823_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b823_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b823_r3_close_public.json"
+  },
+  {
+    "id": "rome_b831_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b831_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b831_r0_update_public.json"
+  },
+  {
+    "id": "rome_b831_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b831_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b831_r1_update_public.json"
+  },
+  {
+    "id": "rome_b831_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b831_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b831_r2_update_public.json"
+  },
+  {
+    "id": "rome_b831_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b831_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b831_r3_close_public.json"
+  },
+  {
+    "id": "rome_b832_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b832_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b832_r0_update_public.json"
+  },
+  {
+    "id": "rome_b832_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b832_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b832_r1_update_public.json"
+  },
+  {
+    "id": "rome_b832_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b832_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b832_r2_update_public.json"
+  },
+  {
+    "id": "rome_b832_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b832_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b832_r3_close_public.json"
+  },
+  {
+    "id": "rome_b835_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b835_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b835_r0_update_public.json"
+  },
+  {
+    "id": "rome_b835_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b835_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b835_r1_update_public.json"
+  },
+  {
+    "id": "rome_b835_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b835_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b835_r2_update_public.json"
+  },
+  {
+    "id": "rome_b835_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b835_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b835_r3_close_public.json"
+  },
+  {
+    "id": "rome_b839_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b839_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b839_r0_update_public.json"
+  },
+  {
+    "id": "rome_b839_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b839_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b839_r1_update_public.json"
+  },
+  {
+    "id": "rome_b839_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b839_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b839_r2_update_public.json"
+  },
+  {
+    "id": "rome_b839_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b839_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b839_r3_close_public.json"
+  },
+  {
+    "id": "rome_b844_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b844_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b844_r0_update_public.json"
+  },
+  {
+    "id": "rome_b844_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b844_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b844_r1_update_public.json"
+  },
+  {
+    "id": "rome_b844_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b844_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b844_r2_update_public.json"
+  },
+  {
+    "id": "rome_b844_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b844_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b844_r3_close_public.json"
+  },
+  {
+    "id": "rome_b851_r0_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b851_r0_update_proof.json",
+    "public_path": "proofs/rome396/rome_b851_r0_update_public.json"
+  },
+  {
+    "id": "rome_b851_r1_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b851_r1_update_proof.json",
+    "public_path": "proofs/rome396/rome_b851_r1_update_public.json"
+  },
+  {
+    "id": "rome_b851_r2_update",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_update_vkey.json",
+    "proof_path": "proofs/rome396/rome_b851_r2_update_proof.json",
+    "public_path": "proofs/rome396/rome_b851_r2_update_public.json"
+  },
+  {
+    "id": "rome_b851_r3_close",
+    "suite": "rome_396_holdout",
+    "vkey": "vkeys/causal_close_vkey.json",
+    "proof_path": "proofs/rome396/rome_b851_r3_close_proof.json",
+    "public_path": "proofs/rome396/rome_b851_r3_close_public.json"
+  },
+  {
+    "id": "m06a_t00_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t00_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t00_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t00_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t00_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t00_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t00_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t00_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t00_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t01_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t01_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t01_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t01_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t01_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t01_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t01_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t01_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t01_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t02_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t02_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t02_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t02_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t02_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t02_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t02_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t02_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t02_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t03_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t03_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t03_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t03_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t03_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t03_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t03_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t03_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t03_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t04_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t04_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t04_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t04_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t04_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t04_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t04_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t04_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t04_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t05_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t05_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t05_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t05_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t05_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t05_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t05_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t05_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t05_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t06_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t06_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t06_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t06_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t06_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t06_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t06_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t06_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t06_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t07_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t07_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t07_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t07_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t07_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t07_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t07_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t07_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t07_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t08_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t08_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t08_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t08_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t08_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t08_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t08_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t08_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t08_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t09_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t09_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t09_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t09_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t09_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t09_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t09_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t09_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t09_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t10_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t10_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t10_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t10_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t10_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t10_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t10_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t10_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t10_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t11_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t11_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t11_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t11_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t11_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t11_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t11_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t11_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t11_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t12_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t12_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t12_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t12_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t12_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t12_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t12_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t12_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t12_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t13_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t13_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t13_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t13_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t13_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t13_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t13_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t13_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t13_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t14_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t14_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t14_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t14_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t14_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t14_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t14_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t14_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t14_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t15_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t15_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t15_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t15_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t15_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t15_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t15_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t15_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t15_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t16_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t16_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t16_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t16_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t16_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t16_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t16_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t16_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t16_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t17_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t17_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t17_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t17_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t17_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t17_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t17_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t17_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t17_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t18_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t18_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t18_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t18_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t18_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t18_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t18_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t18_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t18_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t19_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t19_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t19_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t19_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t19_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t19_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t19_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t19_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t19_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t20_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t20_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t20_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t20_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t20_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t20_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t20_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t20_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t20_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t21_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t21_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t21_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t21_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t21_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t21_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t21_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t21_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t21_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t22_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t22_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t22_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t22_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t22_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t22_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t22_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t22_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t22_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t23_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t23_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t23_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t23_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t23_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t23_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t23_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t23_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t23_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t24_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t24_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t24_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t24_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t24_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t24_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t24_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t24_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t24_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t25_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t25_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t25_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t25_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t25_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t25_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t25_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t25_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t25_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t26_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t26_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t26_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t26_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t26_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t26_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t26_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t26_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t26_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t27_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t27_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t27_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t27_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t27_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t27_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t27_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t27_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t27_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t28_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t28_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t28_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t28_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t28_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t28_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t28_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t28_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t28_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t29_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t29_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t29_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t29_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t29_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t29_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t29_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t29_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t29_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t30_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t30_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t30_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t30_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t30_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t30_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t30_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t30_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t30_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t31_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t31_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t31_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t31_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t31_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t31_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t31_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t31_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t31_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t32_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t32_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t32_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t32_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t32_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t32_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t32_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t32_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t32_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t33_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t33_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t33_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t33_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t33_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t33_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t33_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t33_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t33_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t34_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t34_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t34_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t34_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t34_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t34_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t34_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t34_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t34_r2_close_public.json"
+  },
+  {
+    "id": "m06a_t35_r0_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t35_r0_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t35_r0_update_public.json"
+  },
+  {
+    "id": "m06a_t35_r1_update",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_update_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t35_r1_update_proof.json",
+    "public_path": "proofs/m06a/m06a_t35_r1_update_public.json"
+  },
+  {
+    "id": "m06a_t35_r2_close",
+    "suite": "taiwan_m06a_freeway",
+    "vkey": "vkeys/m06a_close_vkey.json",
+    "proof_path": "proofs/m06a/m06a_t35_r2_close_proof.json",
+    "public_path": "proofs/m06a/m06a_t35_r2_close_public.json"
+  },
+  {
+    "id": "stream_slot_step1",
+    "suite": "streaming_obu_slot_auth",
+    "vkey": "vkeys/stream_slot_auth_vkey.json",
+    "proof_path": "proofs/stream_slot/stream_slot_step1_proof.json",
+    "public_path": "proofs/stream_slot/stream_slot_step1_public.json"
+  }
+]

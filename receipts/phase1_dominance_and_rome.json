@@ -1,0 +1,18 @@
+{
+  "schema": "tollveil.v15.phase1_dominance_and_rome.v1",
+  "generated_at_utc": "2026-11-24T08:21:21.666922+00:00",
+  "status": "PASS",
+  "exhaustive_masks_checked": 480,
+  "exhaustive_mask_violations": 0,
+  "exhaustive_early_release_monotonicity_violations": 0,
+  "rome_routes_evaluated": 856,
+  "rome_strategic_pattern_checks": 3424,
+  "rome_strategic_violations": 0,
+  "rome_early_release_monotonicity_violations": 0,
+  "rome_uncorroborated_operator_undercharge_total": 0,
+  "rome_uncorroborated_operator_undercharge_mean": 0.0,
+  "rome_v15_single_slot6_strategic_penalty_mean": 114.487,
+  "rome_v15_single_slot6_strategic_penalty_max": 1432,
+  "legacy_v14_slot6_operator_undercharge_mean_contrast": 107.279,
+  "legacy_v14_slot6_routes_with_undercharge": 856
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G4",
+  "generated_at_utc": "2026-11-24T14:06:21.056548+00:00",
+  "status": "PASS",
+  "checks": {
+    "G4.1_utility_under_equal_privacy_budget": {
+      "pass": true,
+      "results": {
+        "synthetic_lp": {
+          "pass": true,
+          "relative_heldout_liquidity_gain": 0.19999999999999996,
+          "heldout_pointwise_budget_met": true,
+          "heldout_rows": 90,
+          "receipt": "${ARTIFACT_ROOT}/receipts/privacy_g4/synthetic_lp.json"
+        },
+        "rome_lp": {
+          "pass": true,
+          "lp_gain_pass": false,
+          "uniform_efficiency_pass": true,
+          "uniform_pointwise_budget_met": true,
+          "uniform_bucket_units": 2000,
+          "uniform_utility": 262290.8011869436,
+          "exact_safe_ceiling": 266825.70919881307,
+          "uniform_fraction_of_exact": 0.9830042313932706,
+          "max_gain_over_uniform_same_schedule": 0.017289618970042664,
+          "uniform_incremental_min_entropy_bits": 0.0,
+          "uniform_markov2_top1": 0.8160237388724035,
+          "relative_heldout_liquidity_gain": -0.0029866956285635737,
+          "heldout_pointwise_budget_met": true,
+          "heldout_rows": 337,
+          "receipt": "${ARTIFACT_ROOT}/receipts/privacy_g4/rome_lp.json",
+          "two_stage_support_shift_diagnostic": {
+            "receipt": "${ARTIFACT_ROOT}/receipts/privacy_g4/causal_two_stage_lp_sensitivity.json",
+            "relative_heldout_liquidity_gain": -0.0026769666144019766
+          }
+        }
+      },
+      "thresholds": {
+        "lp_min_relative_gain": 0.15,
+        "rome_uniform_min_exact_fraction": 0.95
+      }
+    },
+    "G4.2_network_simulated_tv_curve": {
+      "pass": true,
+      "empirical_tv": {
+        "0": 0.10558,
+        "15": 0.09072,
+        "60": 0.01012,
+        "300": 0.0
+      },
+      "physical_route_measurement": false,
+      "receipt": "${ARTIFACT_ROOT}/receipts/privacy_g4/network.json"
+    },
+    "G4_stop_control": {
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/privacy_g4/stopping_exact_prefix_r2.json"
+    }
+  }
+}

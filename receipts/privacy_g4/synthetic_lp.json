@@ -1,0 +1,201 @@
+{
+  "calibration_rows": 180,
+  "heldout_rows": 90,
+  "terminal_group_counts": {
+    "10": 6,
+    "5": 6
+  },
+  "policy_grid_amount": 1,
+  "decision_slot": 4,
+  "uniform_bucket_units": 5,
+  "fit": {
+    "exact": {
+      "utility_integral_mean": 42.44444444444444,
+      "expected_top1": 1.0,
+      "expected_top3": 1.0,
+      "top1_nonsingleton": 1.0,
+      "top3_nonsingleton": 1.0,
+      "records_in_nonsingleton_class": 120,
+      "posterior_vulnerability": 0.9999999999999999,
+      "prior_vulnerability": 0.7113306016040202,
+      "min_entropy_leak_bits": 0.49140786494293315,
+      "worst_pointwise_increase": 0.43300409759396985,
+      "outcomes_exceeding_five_pp": 12
+    },
+    "uniform_bucket": {
+      "utility_integral_mean": 33.333333333333336,
+      "expected_top1": 0.6666666666666666,
+      "expected_top3": 1.0,
+      "top1_nonsingleton": 0.5,
+      "top3_nonsingleton": 1.0,
+      "records_in_nonsingleton_class": 120,
+      "posterior_vulnerability": 0.7113306016040202,
+      "prior_vulnerability": 0.7113306016040202,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    },
+    "bayes_lp": {
+      "utility_integral_mean": 40.0,
+      "expected_top1": 0.6666666666666666,
+      "expected_top3": 1.0,
+      "top1_nonsingleton": 0.5,
+      "top3_nonsingleton": 1.0,
+      "records_in_nonsingleton_class": 120,
+      "posterior_vulnerability": 0.7113306016040202,
+      "prior_vulnerability": 0.7113306016040202,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    },
+    "hold": {
+      "utility_integral_mean": 0.0,
+      "expected_top1": 0.6666666666666666,
+      "expected_top3": 1.0,
+      "top1_nonsingleton": 0.5,
+      "top3_nonsingleton": 1.0,
+      "records_in_nonsingleton_class": 120,
+      "posterior_vulnerability": 0.7113306016040202,
+      "prior_vulnerability": 0.7113306016040202,
+      "min_entropy_leak_bits": 0.0,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0
+    }
+  },
+  "heldout_markov_orders": {
+    "1": {
+      "exact": {
+        "utility_integral_mean": 42.44444444444444,
+        "expected_top1": 1.0,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 1.0,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 1.0,
+        "prior_vulnerability": 0.9201267290997728,
+        "min_entropy_leak_bits": 0.1200955175736808,
+        "worst_pointwise_increase": 0.11980990635034083,
+        "outcomes_exceeding_five_pp": 12
+      },
+      "uniform_bucket": {
+        "utility_integral_mean": 33.333333333333336,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.9201267290997728,
+        "prior_vulnerability": 0.9201267290997728,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "bayes_lp": {
+        "utility_integral_mean": 40.0,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.9201267290997728,
+        "prior_vulnerability": 0.9201267290997728,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "hold": {
+        "utility_integral_mean": 0.0,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.9201267290997728,
+        "prior_vulnerability": 0.9201267290997728,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      }
+    },
+    "2": {
+      "exact": {
+        "utility_integral_mean": 42.44444444444444,
+        "expected_top1": 1.0,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 1.0,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 1.0,
+        "prior_vulnerability": 0.7113306016040203,
+        "min_entropy_leak_bits": 0.49140786494293315,
+        "worst_pointwise_increase": 0.43300409759396974,
+        "outcomes_exceeding_five_pp": 12
+      },
+      "uniform_bucket": {
+        "utility_integral_mean": 33.333333333333336,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.7113306016040203,
+        "prior_vulnerability": 0.7113306016040203,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "bayes_lp": {
+        "utility_integral_mean": 40.0,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.7113306016040203,
+        "prior_vulnerability": 0.7113306016040203,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      },
+      "hold": {
+        "utility_integral_mean": 0.0,
+        "expected_top1": 0.6666666666666666,
+        "expected_top3": 1.0,
+        "top1_nonsingleton": 0.5,
+        "top3_nonsingleton": 1.0,
+        "records_in_nonsingleton_class": 60,
+        "posterior_vulnerability": 0.7113306016040203,
+        "prior_vulnerability": 0.7113306016040203,
+        "min_entropy_leak_bits": 0.0,
+        "worst_pointwise_increase": 0.0,
+        "outcomes_exceeding_five_pp": 0
+      }
+    }
+  },
+  "liquidity_gain_relative": 0.19999999999999996,
+  "lp_pointwise_constraints_met_on_holdout": true,
+  "lp_fit": {
+    "variables": 143,
+    "privacy_inequalities": 154,
+    "prior_supported_bins": 12
+  },
+  "unseen_cap_rows": 0,
+  "test_refit_diagnostic": {
+    "utility_integral_mean": 40.0,
+    "expected_top1": 0.6666666666666666,
+    "expected_top3": 1.0,
+    "top1_nonsingleton": 0.5,
+    "top3_nonsingleton": 1.0,
+    "records_in_nonsingleton_class": 60,
+    "posterior_vulnerability": 0.7113306016040203,
+    "prior_vulnerability": 0.7113306016040203,
+    "min_entropy_leak_bits": 0.0,
+    "worst_pointwise_increase": 0.0,
+    "outcomes_exceeding_five_pp": 0,
+    "variables": 143,
+    "privacy_inequalities": 154,
+    "prior_supported_bins": 12,
+    "strongest_eligible_test_refit_bucket_utility": 33.333333333333336,
+    "strongest_eligible_test_refit_bucket_size": 5
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G2",
+  "generated_at_utc": "2026-11-24T12:28:16.707518+00:00",
+  "status": "PASS",
+  "checks": {
+    "G1_prerequisite": {
+      "pass": true
+    },
+    "G2.1_same_causal_information": {
+      "pass": true,
+      "rome_prefixes_equal": 3033,
+      "synthetic_prefixes_equal": 1800,
+      "holdout_edges_retained": 2696,
+      "zero_relaxation_at_genesis_cases": 337,
+      "hindsight_entry_spread": "11/17 (historical)",
+      "receipts": [
+        "${ARTIFACT_ROOT}/receipts/causal_g2/rome_exact.json",
+        "${ARTIFACT_ROOT}/receipts/causal_g2/synthetic_exact.json",
+        "${ARTIFACT_ROOT}/receipts/causal_g2/intake.json"
+      ]
+    },
+    "G2.2_full_396_authenticated_native": {
+      "pass": true,
+      "compile": {
+        "update": {
+          "pass": true,
+          "constraints": 356837,
+          "max_compile_seconds": 7.3502,
+          "max_compile_rss_bytes": 1749090304,
+          "deterministic_trials": 3,
+          "receipt": "${ARTIFACT_ROOT}/receipts/causal_g2/build_update-r3.json"
+        },
+        "close": {
+          "pass": true,
+          "constraints": 355660,
+          "max_compile_seconds": 7.1863,
+          "max_compile_rss_bytes": 1790359634,
+          "deterministic_trials": 3,
+          "receipt": "${ARTIFACT_ROOT}/receipts/causal_g2/build_close-r3.json"
+        }
+      },
+      "prover_median_ms": {
+        "arm_A": 617.308,
+        "arm_B": 626.221
+      },
+      "lifecycle_pass": true,
+      "timing_pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/causal_g2/native_r3.json"
+    },
+    "G2.3_negative_witnesses": {
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/causal_g2/negatives_r3.json",
+      "update": [
+        "upper_minus_one",
+        "illegal_short_path",
+        "negative_field_slack",
+        "cross_session_checkpoint",
+        "wrong_predecessor",
+        "signed_cap_alteration",
+        "signed_future_activation",
+        "fake_obu_fault"
+      ],
+      "close": [
+        "removed_infra_corroboration"
+      ]
+    }
+  }
+}

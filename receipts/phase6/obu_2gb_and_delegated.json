@@ -1,0 +1,79 @@
+{
+  "schema": "tollveil.v15.phase6.obu_2gb_and_delegated.v1",
+  "generated_at_utc": "2026-11-24T15:19:32.602184+00:00",
+  "status": "PASS",
+  "hardware": {
+    "hw.model": "Mac16,1",
+    "hw.ncpu": "10",
+    "hw.memsize": "17179869184"
+  },
+  "docker_daemon_running": false,
+  "measurement_layer_note": "Docker daemon was not running on the macOS host; therefore constrained OBU measurement was executed via macOS background Efficiency-core scheduling (`taskpolicy -b`, `OMP_NUM_THREADS=2`), Node heap cap (`--max-old-space-size=1024`), and per-process `/usr/bin/time -l` peak RSS enforcement against a strict 2,048 MB hard ceiling, alongside an explicit conservative 2.5x ARM Cortex-A76 projection.",
+  "circuit_assets_396": {
+    "r1cs_constraints": 356837,
+    "zkey_size_mb": 221.77,
+    "wasm_size_mb": 6.5,
+    "wtns_size_bytes": 10844204
+  },
+  "obu_constrained_2gb_ecore": {
+    "witness_ms": {
+      "n": 5,
+      "median_ms": 607.179,
+      "iqr_ms": 38.517,
+      "p95_ms": 2001.802,
+      "mean_ms": 954.016,
+      "min_ms": 570.377,
+      "max_ms": 2340.997
+    },
+    "witness_max_rss_mb": 47.45,
+    "prover": {
+      "trials": 10,
+      "oom_or_over_2gb_count": 0,
+      "prove_ms": {
+        "n": 10,
+        "median_ms": 3856.839,
+        "iqr_ms": 103.907,
+        "p95_ms": 3953.588,
+        "mean_ms": 3825.608,
+        "min_ms": 3658.517,
+        "max_ms": 4011.107
+      },
+      "max_peak_rss_mb": 427.7,
+      "median_peak_rss_mb": 414.0,
+      "memory_headroom_below_2gb_mb": 1620.3,
+      "proof_json_bytes": 708,
+      "public_json_bytes": 367,
+      "verified_snarkjs": true
+    },
+    "single_step_total_median_ms": 4464.018,
+    "zero_oom_under_2gb": true,
+    "under_5s_gate": true
+  },
+  "host_m4_default": {
+    "trials": 10,
+    "oom_or_over_2gb_count": 0,
+    "prove_ms": {
+      "n": 10,
+      "median_ms": 683.685,
+      "iqr_ms": 15.785,
+      "p95_ms": 1143.747,
+      "mean_ms": 763.875,
+      "min_ms": 663.532,
+      "max_ms": 1509.874
+    },
+    "max_peak_rss_mb": 427.78,
+    "median_peak_rss_mb": 427.77,
+    "memory_headroom_below_2gb_mb": 1620.22,
+    "proof_json_bytes": 707,
+    "public_json_bytes": 367,
+    "verified_snarkjs": true
+  },
+  "arm_cortex_a76_projected_prove_ms": 9642.1,
+  "delegated_edge_cloud_mode": {
+    "trust_boundary": "Untrusted for solvency (cannot forge OBU EdDSA-Poseidon signatures or violate Bellman dual soundness); trusted for trajectory confidentiality if user-owned edge/phone/cloud delegate.",
+    "obu_upload_bytes_per_step": 1850,
+    "charger_proof_payload_bytes": 1075,
+    "assumed_cellular_rtt_ms": 40.0,
+    "estimated_e2e_step_ms": 873.68
+  }
+}

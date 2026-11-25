@@ -1,0 +1,36 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G1",
+  "generated_at_utc": "2026-11-24T08:21:21.734608+00:00",
+  "status": "PASS",
+  "checks": {
+    "G1.1_streaming_lifecycle_and_zk_slot_auth": {
+      "pass": true,
+      "negative_cases": "15/15",
+      "ledger_pollution_count": 0,
+      "rolling_margin_zero_fee_verified": true,
+      "zk_real_groth16_verified": 10,
+      "zk_negative_cases": "6/6",
+      "receipts": [
+        "${ARTIFACT_ROOT}/receipts/phase1_streaming_lifecycle.json",
+        "${ARTIFACT_ROOT}/receipts/phase1_eddsa_slot_zk.json"
+      ]
+    },
+    "G1.2_collusion_zero_leak": {
+      "pass": true,
+      "tested_session_pairs": 12,
+      "extra_mutual_information_bits": 0.0,
+      "infra_broadcaster_view_byte_identical": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/phase1_collusion_zero_leak.json"
+    },
+    "G1.3_dominance_and_zero_undercharge": {
+      "pass": true,
+      "exhaustive_masks_checked": 480,
+      "exhaustive_mask_violations": 0,
+      "rome_routes_evaluated": 856,
+      "rome_strategic_violations": 0,
+      "rome_uncorroborated_operator_undercharge_total": 0,
+      "receipt": "${ARTIFACT_ROOT}/receipts/phase1_dominance_and_rome.json"
+    }
+  }
+}

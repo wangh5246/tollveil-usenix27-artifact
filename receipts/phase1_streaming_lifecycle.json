@@ -1,0 +1,120 @@
+{
+  "schema": "tollveil.v15.phase1_streaming_lifecycle.v1",
+  "generated_at_utc": "2026-11-24T08:21:20.846393+00:00",
+  "status": "PASS",
+  "t0_zero_trajectory_registration_verified": true,
+  "out_of_order_streaming_order": [
+    3,
+    0,
+    6,
+    1,
+    4,
+    2,
+    7,
+    5
+  ],
+  "initial_bounds_u0": 1720,
+  "session1_early_exact_charge": 240,
+  "session2_corroborated_fault_charge": 690,
+  "rolling_margin_zero_fee_verified": true,
+  "fleet_initial_fund": 2120,
+  "fleet_needed_without_rolling": 3440,
+  "fleet_capital_saved_units": 1320,
+  "internal_transfer_fees_paid": 0,
+  "external_bank_sweep_fee_demo": 25,
+  "negative_cases_total": 15,
+  "negative_cases_rejected": 15,
+  "ledger_pollution_count": 0,
+  "negative_cases": [
+    {
+      "case": "ledger_cross_session_proof_replay",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Public signals do not match authoritative session parameters"
+    },
+    {
+      "case": "ledger_stale_revision_replay",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Stale revision 0 != 2"
+    },
+    {
+      "case": "ledger_prev_state_commit_mismatch",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Predecessor state_commit mismatch (replay or fork)"
+    },
+    {
+      "case": "ledger_update_closed_session",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Session already closed"
+    },
+    {
+      "case": "ledger_update_past_deadline",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Update after deadline rejected"
+    },
+    {
+      "case": "ledger_quantum_violation",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "delta_R=5 violates release_quantum=10"
+    },
+    {
+      "case": "ledger_tampered_groth16_proof",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Groth16 proof verification failed"
+    },
+    {
+      "case": "ledger_forged_fault_overwrites_valid_slot",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Forged fault_mask attempts to cover already-opened valid slot"
+    },
+    {
+      "case": "ledger_invalid_obu_fault_signature",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Invalid OBU EdDSA-Poseidon fault-set signature"
+    },
+    {
+      "case": "ledger_forged_infra_broadcast_sig",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Invalid public M_infra broadcast signature"
+    },
+    {
+      "case": "ledger_uncorroborated_fault_undercharge",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Uncorroborated fault undercharge rejected: final_charge=769 < U_final=770"
+    },
+    {
+      "case": "ledger_insufficient_registration_deposit",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Insufficient deposit_D=1719 < U0*=1720"
+    },
+    {
+      "case": "ledger_early_exact_with_pending_slots",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "EARLY_EXACT requires all slots opened (pending_mask=0, fault_mask=0)"
+    },
+    {
+      "case": "ledger_concurrent_double_close_race",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "outcomes=['REJECTED', 'ACCEPTED']"
+    },
+    {
+      "case": "ledger_sequential_double_close",
+      "rejected": true,
+      "zero_pollution": true,
+      "reason": "Double-close rejected: session already CLOSED"
+    }
+  ]
+}

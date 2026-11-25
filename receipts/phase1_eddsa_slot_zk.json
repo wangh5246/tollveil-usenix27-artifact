@@ -1,0 +1,138 @@
+{
+  "schema": "tollveil.v15.phase1_eddsa_slot_zk.v1",
+  "generated_at_utc": "2026-11-24T08:21:20.835360+00:00",
+  "status": "PASS",
+  "circuit": "${ARTIFACT_ROOT}/circuits/stream_slot_auth.circom",
+  "real_groth16_verified_count": 10,
+  "median_prove_ms": 229.005,
+  "verified_proofs": [
+    {
+      "session_id": 100001,
+      "step": 1,
+      "slot_idx_private": 3,
+      "delta_C": 170,
+      "delta_R": 790,
+      "prove_ms": 296.638,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 2,
+      "slot_idx_private": 0,
+      "delta_C": 10,
+      "delta_R": 130,
+      "prove_ms": 223.78,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 3,
+      "slot_idx_private": 6,
+      "delta_C": 10,
+      "delta_R": 510,
+      "prove_ms": 232.251,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 4,
+      "slot_idx_private": 1,
+      "delta_C": 10,
+      "delta_R": 10,
+      "prove_ms": 221.093,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 5,
+      "slot_idx_private": 4,
+      "delta_C": 10,
+      "delta_R": 10,
+      "prove_ms": 225.613,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 6,
+      "slot_idx_private": 2,
+      "delta_C": 10,
+      "delta_R": 10,
+      "prove_ms": 230.681,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 7,
+      "slot_idx_private": 7,
+      "delta_C": 10,
+      "delta_R": 10,
+      "prove_ms": 227.568,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100001,
+      "step": 8,
+      "slot_idx_private": 5,
+      "delta_C": 10,
+      "delta_R": 10,
+      "prove_ms": 211.837,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100002,
+      "step": 1,
+      "slot_idx_private": 0,
+      "delta_C": 170,
+      "delta_R": 370,
+      "prove_ms": 249.132,
+      "verified_by_snarkjs": true
+    },
+    {
+      "session_id": 100002,
+      "step": 2,
+      "slot_idx_private": 7,
+      "delta_C": 10,
+      "delta_R": 580,
+      "prove_ms": 230.441,
+      "verified_by_snarkjs": true
+    }
+  ],
+  "negative_circuit_cases_total": 6,
+  "negative_circuit_cases_rejected": 6,
+  "negative_circuit_cases": [
+    {
+      "case": "circuit_cross_session_sig_mixup",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    },
+    {
+      "case": "circuit_duplicate_slot_opening",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    },
+    {
+      "case": "circuit_wrong_obu_pubkey",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    },
+    {
+      "case": "circuit_tampered_slot_coordinate",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    },
+    {
+      "case": "circuit_solvency_over_refund",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    },
+    {
+      "case": "circuit_out_of_range_slot_idx",
+      "rejected": true,
+      "reason": "Witness generation rejected: ${ARTIFACT_ROOT}/circuits/build_stream_slot_auth/stream_slot_auth_js/"
+    }
+  ],
+  "saved_sample_proof": {
+    "proof_json": "${ARTIFACT_ROOT}/receipts/phase1_proofs/stream_slot_step1_proof.json",
+    "public_json": "${ARTIFACT_ROOT}/receipts/phase1_proofs/stream_slot_step1_public.json"
+  }
+}

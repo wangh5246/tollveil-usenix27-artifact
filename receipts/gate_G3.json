@@ -1,0 +1,80 @@
+{
+  "schema": "tollveil.v15.gate_receipt.v1",
+  "gate": "G3",
+  "generated_at_utc": "2026-11-24T13:33:03.917115+00:00",
+  "status": "PASS",
+  "checks": {
+    "G3.1_authenticated_gap_update": {
+      "pass": true,
+      "sizes": {
+        "4": {
+          "pass": true,
+          "constraint_ratio": 1.0,
+          "prover_ratio": 1.0559094125973107,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_update_4.json"
+        },
+        "8": {
+          "pass": true,
+          "constraint_ratio": 1.7891117897701296,
+          "prover_ratio": 1.5085135055312027,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_update_8.json"
+        },
+        "16": {
+          "pass": true,
+          "constraint_ratio": 3.3260969813060908,
+          "prover_ratio": 2.7920014338501846,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_update_16.json"
+        },
+        "32": {
+          "pass": true,
+          "constraint_ratio": 6.317579201101928,
+          "prover_ratio": 5.312780471005855,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_update_32.json"
+        }
+      }
+    },
+    "G3.2_executable_nozk": {
+      "pass": true,
+      "sizes": {
+        "4": {
+          "pass": true,
+          "rows": 16,
+          "bytes": 2000,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n4.json"
+        },
+        "8": {
+          "pass": true,
+          "rows": 256,
+          "bytes": 32000,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n8.json"
+        },
+        "12": {
+          "pass": true,
+          "rows": 4096,
+          "bytes": 512000,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n12.json"
+        },
+        "16": {
+          "pass": true,
+          "rows": 65536,
+          "bytes": 8192000,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n16.json"
+        },
+        "20": {
+          "pass": true,
+          "rows": 1048576,
+          "bytes": 131072000,
+          "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/nozk_tables_r1/nozk_n20.json"
+        }
+      }
+    },
+    "G3.2_close_baselines": {
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_close.json"
+    },
+    "G3_hold_terminal_only": {
+      "pass": true,
+      "receipt": "${ARTIFACT_ROOT}/receipts/gap_g3/native_hold.json"
+    }
+  }
+}
