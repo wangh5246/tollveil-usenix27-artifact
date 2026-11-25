@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Configuration & R1CS & Med. ms & IQR & p95 & MiB \\
+\midrule
+Prepared $N=8$ & 32,947 & 146.8 & 3.0 & 155.3 & 44.8 \\
+Prepared $N=16$ & 41,896 & 157.7 & 2.9 & 164.2 & 56.5 \\
+Prepared $N=32$ & 59,785 & 160.1 & 5.4 & 170.5 & 65.4 \\
+Prepared $N=64$ & 98,938 & 221.3 & 4.4 & 245.6 & 85.4 \\
+Prepared $N=396$ & 356,837 & 730.7 & 30.0 & 789.6 & 427.8 \\
+\midrule
+Host end-to-end & 357,048 & 3,669.1 & 432.8 & 6,759.3 & 428.2 \\
+\bottomrule
+\end{tabular}
+
+\caption{Historical prepared-witness scaling and paired host latency. The largest prepared circuit uses a different architecture. The host row includes witness, prove and verify.}
+\label{tab:scaling}
+\end{table}

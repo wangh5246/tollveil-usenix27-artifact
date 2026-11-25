@@ -1,0 +1,12 @@
+{
+  "record": "G2",
+  "refs": {
+    "receipts/v15_1/gap_matched_close.json": "96d23a58af275f814094a47151f721af758a247bb6f2724e86d3daa07ee3a9dd",
+    "receipts/v15_1/gap_proof_gated_replay.json": "19e4608d911ae95fc38162a3b6aded2974568d7f3d89edced14b87ca2ecdbdba",
+    "receipts/v15_1/gate_R2.json": "bfaed79036017a93659d7a2b8179f251b94b4672d2f0ffc9e5748ba7ab26d14e",
+    "receipts/v15_1/m06a_proof_gated_replay.json": "a66fb19e076e19db16493123a9cbb246b17507af8421c38eadade970cac34e42",
+    "receipts/v15_1/r2_checkpoint_negative.json": "afd3782f480dd47be67ecce4ea1dce4b3d6b9d0acabb69f5d4f85911882b31df",
+    "receipts/v15_1/rome_proof_gated_replay.json": "ee9fb8c80974b01706f4e9599e8a85816110daacdf3a000413e276a341d57ae0"
+  },
+  "release": "corridor-escrow-20261125"
+}

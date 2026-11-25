@@ -1,0 +1,30 @@
+\section{System and threat model}
+\label{sec:model}
+
+\input{figures/fig1_arch}
+
+At registration an on-board unit (OBU) commits to its BabyJubJub Edwards-curve Digital Signature Algorithm (EdDSA) verification key. A trusted registrar authorizes that commitment, the entry and vehicle class, the policy, the account, the opening and terminal clock values, and a genesis commitment. The policy directory evaluates the entry envelope independently of the claimant. A roadside authority issues a signed bulletin for the registered corridor and epoch. The Charger holds and credits escrow using the proof and its public vector. A local prover or a delegate under the driver's confidentiality boundary constructs the private witness.
+
+Let $\mathcal I_k$ contain the registered graph, tariff and entry, authenticated elapsed-slot facts, openings through decision $k$, and the authorized close bulletin when applicable. Each unopened slot uses its signed cap or the registered fallback. Let $\mathcal P(\mathcal I_k)$ be the set of feasible walks, with per-edge costs given by the registered tariff and the effective waiver. Write $U^*(\mathcal I_k)=\max_{P\in\mathcal P(\mathcal I_k)}w(P)$. The payable fee is the cost of the actual legal walk under exact fees and the authorized waiver. Solvency concerns authenticated observations and a feasible actual walk. Hardware integrity, physical measurement accuracy, and signer availability are premises.
+
+\begin{definition}[Solvency with authoritative histories]
+\label{def:solv}
+The experiment fixes the relation key family, honest authorization keys, a policy directory and an empty ledger. It permits polynomially many sessions and interleaved submissions.
+\begin{itemize}
+\item Registration allocates a canonical fresh $\sid$, binds one honest OBU and fixes a legal entry, tariff, bulletin scope and deadline. The registrar computes the initial state from the policy and confirms $D\ge U^*(\mathcal I_0)$. The ledger reserves $D$ from the enrolled account.
+\item The checkpoint oracle follows one legal, chronological history per $\sid$. A slot receives at most one authenticated measurement. Each elapsed prefix extends the same records, including their distance caps and availability status. Terminal faults $F$ are disjoint from valid signed slots. The adversary can withhold openings. The OBU seed and secret signing key stay with the authority.
+\item The bulletin oracle returns the unique signed $\Minfra$ approved for the registered corridor and epoch. Its signature key stays with the authority.
+\item The ledger reconstructs the update or close statement from the stored row, authorized bulletin, clock and requested amounts. A successful admission verifies the designated relation and advances the revision before the funds become spendable. A gap digest needs a certificate at the same revision and scope.
+\end{itemize}
+The adversary wins on an adversary-owned session if a new transition leaves insufficient escrow or an undercharge, applies an unauthorized waiver or opening, or credits one revision twice. In the concurrent-simulation variant the proof oracle serves only honest session identifiers disjoint from the targets.
+\end{definition}
+
+A signature authenticates data and scope. Chronology and non-equivocation also depend on the authority and on the preceding-prefix commitment in the full-corridor state. The trusted clock applies the deadline and sets the early-close mode. In the local prototype the in-process replay scheduler supplies this clock value to the ledger. For a fully opened early close the relation checks complete elapsed evidence and all openings.
+
+\begin{definition}[Online transcript privacy]
+\label{def:privacy}
+An online leakage oracle emits public enrollment fields, linked account and session identifiers, policy and epoch labels, bulletin contents, statement roles, revisions, amount deltas, terminal charge, and eligibility and acceptance labels. It also emits message types, lengths, release and close events, retransmission and alias patterns, and public cadence labels. It does so at the point each event becomes public. Histories include the effects of scheduling and fault availability.
+In the left/right experiment a challenge bit selects one side of an adaptive sequence of legal history pairs. Pairs are admissible when their leakage prefixes match at every event under the same permitted intervention, including a selective stop. Define $\Delta_{\mathrm{LR}}$ as the absolute difference of the adversary's output-one probabilities in the two real worlds. In the real/ideal experiment the adversary receives the real view of one history or the output of an online simulator given its leakage alone. Define $\Delta_{\mathrm{RI}}$ by the same probability-difference convention.
+\end{definition}
+
+The broadcaster in this interface reads and publishes the same public bulletin for every vehicle in a scope. Conditioning on the bulletin determines its entire extra view. A broadcaster with vehicle queries or telemetry has a different observation interface.

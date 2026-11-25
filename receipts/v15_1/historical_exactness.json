@@ -1,0 +1,6 @@
+{
+  "holdout_edges_retained": 2696,
+  "rome_prefixes_equal": 3033,
+  "synthetic_prefixes_equal": 1800,
+  "zero_relaxation_at_genesis_cases": 337
+}

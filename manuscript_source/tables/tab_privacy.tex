@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Cohort & Amount view & Top-1 & Bits & Group Top-1 & $>5$ pp \\
+\midrule
+Rome & Hold & 81.6\% & 0.0000 & 34.7\% & 0 \\
+Rome & Slot 4 bucket & 81.6\% & 0.0000 & 34.7\% & 0 \\
+Rome & Multi-slot bucket & 88.1\% & 0.0790 & 57.9\% & 30 \\
+Rome & Exact & 98.8\% & 0.1831 & 95.8\% & 60 \\
+\midrule
+Taiwan & Hold & 99.8\% & 0.0000 & 99.8\% & 0 \\
+Taiwan & Slot 4 bucket & 99.8\% & 0.0000 & 99.8\% & 0 \\
+Taiwan & Multi-slot bucket & 99.8\% & 0.0000 & 99.8\% & 0 \\
+Taiwan & Exact & 99.8\% & 0.0000 & 99.8\% & 0 \\
+\bottomrule
+\end{tabular}
+
+\caption{Second-order score after observing the complete intermediate amount vector. Group Top-1 uses non-singleton groups. Exact is an unconstrained reference.}
+\label{tab:privacy}
+\end{table}

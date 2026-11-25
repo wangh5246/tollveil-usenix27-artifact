@@ -1,0 +1,21 @@
+\begin{figure*}[t]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw=tvslate,rounded corners=2pt,minimum width=34mm,
+    minimum height=12mm,align=center,font=\small,inner sep=3pt},
+  link/.style={-{Latex[length=2mm]},line width=.6pt,draw=tvslate},
+  words/.style={align=center,font=\scriptsize}
+]
+\node[box,fill=tvbluebg] (obu) at (0,0) {On-board unit\\Signed checkpoints};
+\node[box,fill=tvbluebg] (prover) at (4.8,0) {Client prover\\Retained openings};
+\node[box,fill=tvtealbg] (ledger) at (10.2,0) {Charger ledger\\Pairing then CAS};
+\node[box,fill=tvamberbg] (authority) at (4.8,-1.9) {Public bulletin\\Corridor and epoch};
+\node[box,fill=tvtealbg] (account) at (10.2,-1.9) {Fleet account\\Atomic margin credit};
+\draw[link] (obu.east) -- node[words,above]{Signed facts} (prover.west);
+\draw[link] (prover.east) -- node[words,above]{Proof and\\public statement} (ledger.west);
+\draw[link] (ledger.south) -- node[words,right]{Committed\\refund} (account.north);
+\draw[link] (authority.east) -- ++(1.5,0) |- ([yshift=-4mm]ledger.west);
+\end{tikzpicture}
+\caption{The charger verifies the designated relation before crediting escrow. Full-corridor proof generation retains opened tuples within a session. Anchored continuation can represent untouched siblings by subtree digests and caps.}
+\label{fig:arch}
+\end{figure*}

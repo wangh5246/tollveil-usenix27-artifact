@@ -1,0 +1,49 @@
+\section{Proof-gated escrow}
+\label{sec:protocol}
+
+\subsection{Admission, authorization and retries}
+A trusted policy and signed enrollment bind the session identifier, starting state and funding source. A transaction reserves the deposit. For each submission the ledger acquires its SQLite writer reservation, selects the verification key from the registered family and role, and reconstructs the proof statement using the current row. A close retrieves the stored Ed25519 bulletin for its scope and verifies the signature. After a successful pairing check, a compare-and-swap (CAS) on identifier, revision and predecessor advances the row, increments available margin and records the receipt within one transaction. The committed update obeys $R+\Delta R\le D-U^*$. A timed close sets $Q=U^*$ and obeys $R+\Delta R+Q=D$. An earlier close requires a proof of all openings, with the early flag set by the ledger. A valid retry verifies the same persisted public statement and returns the original receipt. The integrated roles are Rome and M06A update and close, gap local update, and the raw, stateful and digest gap close roles. The compiled manifest lists public wires in their verification order. Scale and single-slot fixtures measure separate relations.
+
+Hold applies zero intermediate credits on the same checkpoint schedule. The fleet replay fixes the proof cadence to isolate changes in escrow. Under equivalent terminal evidence and eligibility, sending only the terminal proof saves communication when no intervening checkpoint is required.
+
+\subsection{Continuation and private state}
+The short full-corridor relations reopen earlier measurements when forming Bellman certificates. For $n=8$ the client retains at most eight opened edge tuples with salts during the session alongside other commitment and key state. A raw 32-byte salt per opening contributes at most 256 bytes to this budget. The ledger sees commitments instead of raw coordinates. The replay uses temporary witness files and drops session-local working state. Secure media erasure remains a deployment property.
+
+For independent registered gaps the client updates the selected leaf using openings for that gap and sibling subtree commitments and sums for the rest. An unaffected subtree can be represented by its digest and cap for this step. An authoritative raw close requires the corresponding preimages. A client that drops those preimages must first arrange a valid certificate or another authorized close path. In the fixed $g=4$ domain, the stateful close also requires at least three openings in every gap. For digest close, a raw or eligible stateful proof certifies the digest against the current row. The ledger persists the digest and the scoped statement before accepting a digest-only proof. End-to-end accounting includes the certification stage.
+
+\subsection{Fault evidence and remaining envelopes}
+The effective waiver is $M=F\cap\Minfra$. An uncertified opening leaves a superset of possible routes under a dominating tariff. For fixed effective waiver and an actual path that remains feasible, this cannot lower the maximum fee or increase available early-release headroom. Exact fees are obtained when all measurements open. With missing evidence, a close charges the remaining envelope under the authorized policy, which may exceed the actual fee. A failed device or unavailable retained evidence can delay settlement.
+
+\subsection{Solvency and transcript privacy}
+The artifact derives each Groth16~\cite{groth2016} key from a common prepared Powers-of-Tau Phase~1 and a circuit-specific Phase~2 contribution. The pinned snarkjs construction fixes $\gamma$ to the public G2 generator and updates $\delta$ and the corresponding inverse queries. The artifact verifies the ceremony and checks the public $A$ polynomials and their intersection with the private span from the compiled quadratic arithmetic programs (QAPs). The joint setup assumption below covers these actual public parameters.
+
+\begin{lemma}[Canonical statement freshness and single credit]
+\label{lem:freshness}
+Under disjoint honest and target session allocation, every accepted target statement differs from every simulated honest statement for its relation at the canonical session wire. For each $(\sid,\rev)$ the transaction advances and credits the row at most once. A verified retry for the same statement can receive the persisted receipt.
+\end{lemma}
+
+\begin{theorem}[Conditional solvency and outage dominance]
+\label{thm:solv}
+In Definition~\ref{def:solv}, assume adaptive extraction for each target relation with the entire shared Phase~1, all circuit-specific parameters, and the other allowed public transcripts as auxiliary input. In the concurrent-simulation game assume joint weak simulation extractability for fresh statements with the specified honest simulation queries. Let $\epsilon_{X,r}$ bound the probability that an accepting targeted record under relation $r$ lacks the extractor's valid witness. If at most $q_r$ target records of each relation reach admission or certification, then
+\[
+\Delta_{\rm solv}\le
+\sum_r q_r\epsilon_{X,r}+\epsilon_{\rm bind}
++\epsilon_{\rm OBU}+\epsilon_{\rm infra}+\epsilon_{\rm reg}.
+\]
+Here the remaining terms bound aggregate state and leaf binding failures and forgeries against the authorized keys. Under the fixed-waiver and feasibility premises above, withholding openings preserves outage dominance.
+\end{theorem}
+
+\begin{theorem}[Conditional online transcript privacy]
+\label{thm:priv}
+Assume one joint simulated setup matching the public key distribution up to $\epsilon_{\rm setup}$, and adaptive proof simulation with gap $\epsilon_{\rm zk,r}$ at each of at most $M_r$ fresh honest emissions of relation $r$. Assume adaptive joint hiding of salted commitments under the declared leakage and aliases with gap $\epsilon_{\rm hide}$ and a simulator that handles the substituted public vectors. For at most $m$ interleaved sessions, suppose an online coupling to the ideal public-label schedule allocates at most $\delta_{\rm net}$ probability per session to a first mismatch in any of its transport events, under the common matched global history and allowed adaptive interleaving. Then for either challenge side,
+\[
+\begin{aligned}
+\Delta_{\rm RI}&\le\epsilon_{\rm setup}
+ +\sum_r M_r\epsilon_{\rm zk,r}+\epsilon_{\rm hide}
+ +\min\{1,m\delta_{\rm net}\},\\
+\Delta_{\rm LR}&\le 2\Delta_{\rm RI}^{\max}.
+\end{aligned}
+\]
+\end{theorem}
+
+Appendix~\ref{app:proofs} gives the game arguments and the independent setup boundary of the cited extraction result. The transport term is an assumption on the adaptive experiment. The network simulation in Section~\ref{sec:eval} characterizes a two-profile delay model.

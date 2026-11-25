@@ -1,0 +1,11 @@
+{
+  "dataset": "CRAWDAD roma/taxi",
+  "official_doi": "https://doi.org/10.15783/C7QC7M",
+  "raw_text_bytes": 1608435716,
+  "raw_text_sha256": "ea282cd631b66ebbb79680939293956301be769282c9c02d0d989ecdf53e0cc1",
+  "prepared_sha256": "560a069fb8457a79c0d82bbf476610b52d60bb6af1b932868821a4934c4e7518",
+  "road_matrix_sha256": "d4a784dcc6b7e27d44b515c0a687a4307ca98430edaf050f752a60b8d6439cea",
+  "road_osm_pbf_sha256": "b5503bbe01aa5a3b2c9db84727583c412b41f67daec070203718ba85c51f3e83",
+  "map_attribution": "\u00a9 OpenStreetMap contributors",
+  "map_license": "https://www.openstreetmap.org/copyright"
+}

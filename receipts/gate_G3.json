@@ -1,0 +1,13 @@
+{
+  "record": "G3",
+  "refs": {
+    "receipts/v15_1/gate_R3.json": "65a71b9fe86d575be094cbfee2f3a5b007dd43f45ed4d75d8f3e3453c35d0dd5",
+    "receipts/v15_1/host.json": "b086ca06ad1193ff249ab0dba49c4374c063fed2f0271b4b11ae7f4b395e0459",
+    "receipts/v15_1/host_concurrent_attempt.json": "e14652efc5d83ed23c4ed8301cad0f67ad1c72e9e28cda85e41fc1b277ac1e7a",
+    "receipts/v15_1/m06a_historical_release_fleet.json": "1ece5907c3e4b07910647e40c421e9d81af367cad4a7a691591a7a6e13be4711",
+    "receipts/v15_1/network.json": "6b98695263fe56e11e4028f1f30685d90714ffd3f61977eea4f8b157b6c4e071",
+    "receipts/v15_1/rome_release_fleet.json": "11682a6dd96aec781e3ee260039fc1f88f7aa37c4632afbf82644d7222dfe1e0",
+    "receipts/v15_1/rome_stopping.json": "0ddf86ef5a484af270a594188cf232b8550dd4b09b7f763489dd6182958db1ae"
+  },
+  "release": "corridor-escrow-20261125"
+}

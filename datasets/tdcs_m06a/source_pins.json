@@ -1,0 +1,20 @@
+{
+  "archive_name": "TDCS_M06A_20190830_080000.csv",
+  "archive_sha256": "9c3049209e2fac750636c6bf6245e4f19b71efaba15b0676a86d98b256bf5193",
+  "archive_bytes": 49795564,
+  "provider": "Taiwan Ministry of Transportation and Communications Freeway Bureau",
+  "provider_dataset": "https://data.gov.tw/dataset/37760",
+  "provider_archive": "https://tisvcloud.freeway.gov.tw/history/TDCS/M06A/20190830/08/TDCS_M06A_20190830_080000.csv",
+  "license": "https://data.gov.tw/license",
+  "mirror_commits": [
+    "https://raw.githubusercontent.com/ksye6/ksye6/ec20e2dcad87341b639f58253f92c98895caa32d/MSDM5051%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1python%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%9C%E4%B8%9A/hw1/data/TDCS_M06A_20190830_080000.csv",
+    "https://raw.githubusercontent.com/zzy233954/ddm/0c9d10ce0c99ad8d478ed1894ef6c748653fd2d6/MSDM5051%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1python%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%9C%E4%B8%9A/hw1/data/TDCS_M06A_20190830_080000.csv"
+  ],
+  "allowance_policy": {
+    "provider_document": "https://www.freeway.gov.tw/etc/publish.aspx?NID=1941&P=9102",
+    "daily_free_km_per_vehicle": 20,
+    "standard_rates_01twd_per_km": [12, 15, 18]
+  },
+  "git_blob_sha1": "a909ab14eabbef84922851f420d7b355cd1dbcfe",
+  "tariff_sha256": "51161715e6efb99a8c8a4d0bdbe81ca7f494c2b9c2f8fc219a799b9d19e130b5"
+}

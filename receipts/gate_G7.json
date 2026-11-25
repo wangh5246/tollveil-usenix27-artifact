@@ -1,0 +1,12 @@
+{
+  "live_pdf_sha256": "b4b7ee1961050d97395fef538da0b4da3946ad06f5a09251f47510ec30a8c821",
+  "record": "G7",
+  "refs": {
+    "TollVeil.pdf": "b4b7ee1961050d97395fef538da0b4da3946ad06f5a09251f47510ec30a8c821",
+    "asset_manifest.json": "46759ffb0017f9a7fea3768b1e60712f2564d5beaa1a1f6180bd127848d353ce",
+    "compiled_circuits_manifest.json": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb",
+    "phase2_setup_manifest.json": "d137fd351d9c8c41ade32d1dd3031d371bd8402cbdd3b0ce4171de62b2446043",
+    "proofs/manifest.json": "e841397879abeeb02b9a17d0ad7591a1320822f36d288cbb8d7e2248603e1ba5"
+  },
+  "release": "corridor-escrow-20261125"
+}

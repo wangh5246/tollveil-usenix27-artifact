@@ -1,0 +1,44 @@
+{
+  "capability_boundaries": {
+    "audit_disclosure_at_spot_check": "Reveals challenged segment location/time tuple to provider/driver",
+    "cross_slot_non_additive_envelope": "N/A",
+    "permanent_missing_segment_recovery": "N/A (assumes spot-checkable complete OBU tuples)",
+    "pre_deadline_irreversible_refund": "N/A (period-end sum billing only)"
+  },
+  "complete_route_4slot_340": {
+    "audit_disclosed_bytes": 56,
+    "elapsed_ms": 10.109500028192997,
+    "elapsed_ms_median": 10.1062,
+    "n_segments": 4,
+    "normal_tuple_bytes": 1312,
+    "spot_check_count": 1,
+    "tamper_rejected": true,
+    "total_fee": 340,
+    "tuple_count": 4
+  },
+  "complete_route_4slot_720": {
+    "audit_disclosed_bytes": 56,
+    "elapsed_ms": 10.391916846856475,
+    "elapsed_ms_median": 10.1344,
+    "n_segments": 4,
+    "normal_tuple_bytes": 1312,
+    "spot_check_count": 1,
+    "tamper_rejected": true,
+    "total_fee": 720,
+    "tuple_count": 4
+  },
+  "complete_route_8slot_mean200_match": {
+    "audit_disclosed_bytes": 112,
+    "elapsed_ms": 18.536875024437904,
+    "elapsed_ms_median": 19.0286,
+    "n_segments": 8,
+    "normal_tuple_bytes": 2624,
+    "spot_check_count": 2,
+    "tamper_rejected": true,
+    "total_fee": 67059,
+    "tuple_count": 8
+  },
+  "implementation_provenance": "reproduced_domain_anchor_from_paper_spec",
+  "protocol": "PrETP (Balasch et al., USENIX Security 2010)",
+  "record_sha256": "23c12cec48c485754156a8f770439e3cffe0fd51d82f36f21657d5fc415034ce"
+}

@@ -1,0 +1,9 @@
+{
+  "related_erp_protocol": "https://doi.org/10.1109/TDSC.2023.3314867",
+  "range_proof_spec": "https://github.com/dalek-cryptography/bulletproofs/blob/main/docs/range-proof-protocol.md",
+  "scope": "Standalone single-value 64-bit Bulletproofs reference, excluding the value commitment and ERP framing.",
+  "bytes_per_element": 32,
+  "base_elements": 9,
+  "elements_per_round": 2,
+  "value_bits": 64
+}

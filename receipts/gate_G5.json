@@ -1,0 +1,9 @@
+{
+  "record": "G5",
+  "refs": {
+    "asset_manifest.json": "46759ffb0017f9a7fea3768b1e60712f2564d5beaa1a1f6180bd127848d353ce",
+    "manuscript_source/main.tex": "550a085287f9baf92dc84e501485f7166ec57e1d7620fea7efa722c4f5638748",
+    "manuscript_source/sections/appendices.tex": "0ceb4f8083999ccc30d268656c63f80d9d1c3a11ff29c2d73e93dde66cdba28e"
+  },
+  "release": "corridor-escrow-20261125"
+}

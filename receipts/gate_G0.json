@@ -1,0 +1,9 @@
+{
+  "record": "G0",
+  "refs": {
+    "DATA_PROVENANCE.md": "a9363c681ce9e849c1441b3d2be10e70c9a5b12a62ff611a712b43fa4d1de1f8",
+    "README.md": "e565cd06080c7176222cac9dcbefb44a252a6d52afeca21905185d24cdbe48f5",
+    "release_identity.json": "911ad75816587128e7af85872e545c2759b43d1db9b711ea9dad5a34b42f4d1b"
+  },
+  "release": "corridor-escrow-20261125"
+}

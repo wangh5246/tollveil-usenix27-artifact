@@ -1,0 +1,237 @@
+{
+  "bls_bn254_2pc": {
+    "bls_2pc_ms": 15.09975,
+    "bls_single_ms": 3.4782500000000027,
+    "ok_agg": true,
+    "ok_partial": true,
+    "ok_single": true,
+    "ok_tampered_rejected": true,
+    "pk_g2_affine_bytes": 128,
+    "sig_g1_affine_bytes": 64
+  },
+  "circuit_benchmarks": {
+    "C_Mint": {
+      "circuit": "cape_mint",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 804,
+      "prove_s_median": 2.6975,
+      "public_json_bytes": 187,
+      "save_tag": "mint_i",
+      "verify_ms_median": 215.91,
+      "vkey_bytes": 3657,
+      "zkey_bytes": 68164472
+    },
+    "C_Rev": {
+      "circuit": "cape_rev",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 806,
+      "prove_s_median": 6.2443,
+      "public_json_bytes": 440,
+      "save_tag": "rev_step1",
+      "verify_ms_median": 210.87,
+      "vkey_bytes": 4580,
+      "zkey_bytes": 183260180
+    },
+    "C_SetSend": {
+      "circuit": "cape_setsend",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 802,
+      "prove_s_median": 15.1317,
+      "public_json_bytes": 266,
+      "save_tag": "setsend_i",
+      "verify_ms_median": 235.8,
+      "vkey_bytes": 3846,
+      "zkey_bytes": 440962268
+    },
+    "C_Transfer1": {
+      "circuit": "cape_transfer1",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 805,
+      "prove_s_median": 13.2563,
+      "public_json_bytes": 437,
+      "save_tag": "transfer1_close",
+      "verify_ms_median": 235.51,
+      "vkey_bytes": 4578,
+      "zkey_bytes": 441626472
+    },
+    "C_Transfer2": {
+      "circuit": "cape_transfer2",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 805,
+      "prove_s_median": 13.5055,
+      "public_json_bytes": 352,
+      "save_tag": "transfer2_close",
+      "verify_ms_median": 232.98,
+      "vkey_bytes": 4209,
+      "zkey_bytes": 441272012
+    },
+    "C_UnFreeze": {
+      "circuit": "cape_unfreeze",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 808,
+      "prove_s_median": 5.7601,
+      "public_json_bytes": 438,
+      "save_tag": "unfreeze_i",
+      "verify_ms_median": 213.53,
+      "vkey_bytes": 4580,
+      "zkey_bytes": 183084636
+    },
+    "C_Update": {
+      "circuit": "cape_update",
+      "groth16_compact_proof_bytes": 192,
+      "proof_json_bytes": 803,
+      "prove_s_median": 36.8342,
+      "public_json_bytes": 528,
+      "save_tag": "update_step1",
+      "verify_ms_median": 265.19,
+      "vkey_bytes": 4941,
+      "zkey_bytes": 912020100
+    }
+  },
+  "implementation_provenance": "reproduced_from_paper_spec_with_real_circom_sha256_depth8_groth16_bls_vtd",
+  "matched_task_3000_deposit": {
+    "compact_wire_bytes": {
+      "optimistic_close_onchain_3tx": 1280,
+      "per_update_offchain_2upd_2rev_2vtd": 42752,
+      "pessimistic_close_onchain_3tx": 1248,
+      "setup_offchain_2unfreeze_2vtd": 41856,
+      "setup_onchain_2tx": 704,
+      "tx_Rev": 416,
+      "tx_SetSend": 352,
+      "tx_Transfer1": 448,
+      "tx_Transfer2": 384,
+      "tx_UnFreeze": 416,
+      "tx_Update": 448
+    },
+    "deposit": 3000,
+    "matched_balance_trajectory": [
+      {
+        "charger_bal": 0,
+        "event": "channel_setup",
+        "payer_bal": 3000,
+        "requires_counterparty_online_sig": true,
+        "spendable_cash_payer": 0,
+        "step": 0
+      },
+      {
+        "charger_bal": 1660,
+        "event": "update_1_inc",
+        "payer_bal": 1340,
+        "requires_counterparty_online_sig": true,
+        "spendable_cash_payer": 0,
+        "step": 1
+      },
+      {
+        "charger_bal": 860,
+        "event": "update_2_batch",
+        "payer_bal": 2140,
+        "requires_counterparty_online_sig": true,
+        "spendable_cash_payer": 0,
+        "step": 2
+      },
+      {
+        "charger_bal": 340,
+        "event": "update_3_coop_close",
+        "note": "Charger can run Transfer2 immediately; Payer must wait VTD T + run Transfer1",
+        "payer_bal": 2660,
+        "spendable_cash_payer": 0,
+        "step": 3
+      },
+      {
+        "charger_bal": 340,
+        "event": "post_T_transfer1",
+        "payer_bal": 2660,
+        "requires_counterparty_online_sig": false,
+        "spendable_cash_payer": 2660,
+        "step": 4
+      }
+    ],
+    "onchain_tx_counts": {
+      "optimistic_close": 3,
+      "per_update": 0,
+      "pessimistic_dispute_close": 3,
+      "setup": 2
+    },
+    "paper_table1_reported_bytes": {
+      "close_optimistic_onchain_bytes": 1791.32,
+      "close_pessimistic_onchain_bytes": 1794.67,
+      "create_offchain_bytes": 10240,
+      "create_onchain_bytes": 445.78,
+      "update_offchain_bytes": 11390
+    },
+    "private_state_bytes": {
+      "currency_opening_fields_bytes": 232,
+      "per_update_retained_pair_bytes": 21376,
+      "unfreeze_pair_plus_vtd_bytes": 20928
+    }
+  },
+  "negative_probes": {
+    "bls_tampered_message_rejected": true,
+    "mint_value_mismatch_rejected": true,
+    "transfer1_bad_merkle_root_rejected": true,
+    "update_balance_conservation_violation_rejected": true,
+    "vtd_wrong_Y_rejected": true
+  },
+  "no_official_repo_available": true,
+  "protocol": "CAPE (Gai et al., IEEE TDSC 2025, 22(4):3977-3992)",
+  "r1cs_circuits": {
+    "cape_mint": {
+      "constraints": 120455,
+      "private_inputs": 6,
+      "public_inputs": 5,
+      "r1cs_bytes": 29717016,
+      "wires": 118696
+    },
+    "cape_rev": {
+      "constraints": 301270,
+      "private_inputs": 13,
+      "public_inputs": 10,
+      "r1cs_bytes": 74579820,
+      "wires": 297127
+    },
+    "cape_setsend": {
+      "constraints": 751086,
+      "private_inputs": 39,
+      "public_inputs": 6,
+      "r1cs_bytes": 185941748,
+      "wires": 742007
+    },
+    "cape_transfer1": {
+      "constraints": 752342,
+      "private_inputs": 41,
+      "public_inputs": 10,
+      "r1cs_bytes": 186317004,
+      "wires": 743263
+    },
+    "cape_transfer2": {
+      "constraints": 751598,
+      "private_inputs": 41,
+      "public_inputs": 8,
+      "r1cs_bytes": 186094260,
+      "wires": 742519
+    },
+    "cape_unfreeze": {
+      "constraints": 300758,
+      "private_inputs": 9,
+      "public_inputs": 10,
+      "r1cs_bytes": 74585312,
+      "wires": 296615
+    },
+    "cape_update": {
+      "constraints": 1562212,
+      "private_inputs": 78,
+      "public_inputs": 12,
+      "r1cs_bytes": 387091492,
+      "wires": 1543428
+    }
+  },
+  "record_sha256": "5bb2c96a9056cbe1277895a7490d45a2b8f14646b742801f3a9d93b0cacc0067",
+  "vtd_rsa2048_cut_and_choose": {
+    "commit_ms": 697.21,
+    "force_op_ms": 74.58,
+    "lock_T_benchmarked": 10000,
+    "n_slots": 16,
+    "serialized_bytes": 20512,
+    "verify_ms": 256.39
+  }
+}

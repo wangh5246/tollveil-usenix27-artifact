@@ -1,0 +1,52 @@
+{
+  "admissions": 2,
+  "build_manifest_sha256": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb",
+  "certification": {
+    "elapsed_ms": 12.323791859671474,
+    "pairing_ms": 11.629041,
+    "relation": "gap_close_raw"
+  },
+  "certifications": 1,
+  "certify_and_close_total_ms": 1361.152708819434,
+  "compute": {
+    "gap_close_digest": {
+      "prove_ms": 142.956,
+      "serialized_proof_public_bytes": 1036,
+      "witness_ms": 50.14
+    },
+    "gap_close_raw": {
+      "prove_ms": 900.07,
+      "serialized_proof_public_bytes": 1038,
+      "witness_ms": 240.639
+    },
+    "gap_local_16": {
+      "prove_ms": 266.586,
+      "serialized_proof_public_bytes": 1024,
+      "witness_ms": 110.704
+    }
+  },
+  "conservation_errors": 0,
+  "digest_close": {
+    "admission_ms": 15.023916959762573,
+    "pairing_ms": 14.174667
+  },
+  "digest_close_total_ms": 208.11991695976258,
+  "negatives": {
+    "uncertified_digest_close": true,
+    "wrong_certified_digest": true
+  },
+  "persisted_certified_digest": true,
+  "proofs": [
+    {
+      "id": "gap_local_16"
+    },
+    {
+      "id": "gap_close_raw"
+    },
+    {
+      "id": "gap_close_digest"
+    }
+  ],
+  "smoke": false,
+  "suite": "gap"
+}

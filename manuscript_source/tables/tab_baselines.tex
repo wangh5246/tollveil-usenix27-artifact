@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Settlement arm & Rows & Store B & Prep ms & Upd B & Client ms & Admit ms & Close B & Close ms \\
+\midrule
+Plaintext evidence & 0 & 0 & -- & 110 & 0.02 & 0.30 & 800 & 0.02 + 0.27 \\
+Online trusted source & 0 & 0 & -- & 125 & 0.16 & 0.23 & 125 & 0.05 + 0.24 \\
+Factored offline $m\,2^g$ & 64 & 8,000 & 1.91 & 500 & 0.06 & 0.34 & 500 & 0.06 + 0.35 \\
+Coupled offline $2^n$ & 65,536 & 8,192,000 & 7,678.50 & 125 & 0.02 & 0.26 & 125 & 0.02 + 0.26 \\
+\midrule
+TollVeil Taiwan & -- & -- & -- & 1,103 & 1,722.5 + 607.0 & 10.11 & 1,029 & see Table~\ref{tab:corridors} \\
+TollVeil Rome & -- & -- & -- & 1,106 & 4,475.7 + 1,466.7 & 8.23 & 1,034 & see Table~\ref{tab:corridors} \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{tabular}{@{}llr@{}}\toprule
+Related system & Measured operation and trust boundary & Reported cost \\
+\midrule
+PrETP~\cite{pretp2010} & reimplemented eight-segment commitment and audit & 19.03 ms \\
+ERP~\cite{desmet2024} / Bulletproofs~\cite{bulletproofs2018} & standalone 64-bit range-proof reference & 672 B \\
+FairStream~\cite{fairstream2023} & pessimistic proof of misbehavior, modeled chain gas & 112,176 gas \\
+CAPE~\cite{cape2025} & reimplemented private channel update proof & 36.834 s \\
+FairRelay~\cite{fairrelay2026} & proof of forwarding circuit & 6.014 s \\
+MicroNova~\cite{micronova2025} & incremental fold and final compression & 170.7 / 5,209.6 ms \\
+\bottomrule\end{tabular}
+\caption{Authenticated settlement costs and related primitive references. The signed arms share a synthetic 16-slot task, and the TollVeil rows use the indicated corridor inputs. The offline catalogs assume route foreknowledge. Signed close reports client and charger medians separately.}
+\label{tab:baselines}
+\end{table*}

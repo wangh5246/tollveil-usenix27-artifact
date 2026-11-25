@@ -1,0 +1,11 @@
+{
+  "record": "G4",
+  "refs": {
+    "receipts/v15_1/gate_R4.json": "6c21fa0c1370aa6df74e74bdc55e024bedac7ce8999a38fcf52b96e599f33d60",
+    "receipts/v15_1/m06a_cohort.json": "e540f72c95188bb3b3ed80301759d38cac680477a28e0994fb4366693f231172",
+    "receipts/v15_1/m06a_release_fleet.json": "c04f0cbaf49cb3b831b1c3ab82f0db85f72eba1a074a11168b07ea6dd9ca4a06",
+    "receipts/v15_1/matched_baselines.json": "50a1b5bd0a3bf35092a5e84ccc18e7d18c9a566b2e84a18f9636af6580ffc981",
+    "receipts/v15_1/rome_cohort_manifest.json": "8af77294708b58040b7aa8ba5cf40bd7f40699ece31022f9494908824ea7043e"
+  },
+  "release": "corridor-escrow-20261125"
+}

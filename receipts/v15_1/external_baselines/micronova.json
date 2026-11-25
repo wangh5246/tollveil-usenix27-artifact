@@ -1,0 +1,53 @@
+{
+  "compressed_proof_bytes_at_k2": 12381,
+  "compressed_proof_bytes_at_k4": 12381,
+  "compressed_proof_zlib_at_k2": 12094,
+  "compressed_proof_zlib_at_k4": 12091,
+  "compressed_prove_at_k2_ms_median": 5179.3185,
+  "compressed_prove_at_k4_ms_median": 5209.608625,
+  "compressed_verify_at_k2_ms_median": 30.474541000000002,
+  "compressed_verify_at_k4_ms_median": 26.117708999999998,
+  "curve_cycle": "BN254 (Bn256EngineKZG) / Grumpkin",
+  "final_zn_l": "0x0000000000000000000000000000000000000000000000000000000000000348",
+  "final_zn_r_pub": "0x0000000000000000000000000000000000000000000000000000000000000348",
+  "final_zn_rev": "0x0000000000000000000000000000000000000000000000000000000000000004",
+  "final_zn_u": "0x0000000000000000000000000000000000000000000000000000000000000348",
+  "implementation_provenance": "upstream_microsoft_Nova_01b1e2d6_with_matched_4x8_tollveil_step_circuit",
+  "ivc_proof_bytes_at_k2": 2067637,
+  "ivc_proof_bytes_at_k4": 2067637,
+  "ivc_proof_zlib_at_k2": 857381,
+  "ivc_proof_zlib_at_k4": 1064014,
+  "ivc_verify_step_ms_median": [
+    26.693583,
+    52.601459000000006,
+    80.403167,
+    73.151167
+  ],
+  "negative_checks": {
+    "over_refund_rejected": true,
+    "tampered_merkle_sibling_rejected": true,
+    "wrong_step_count_verify_rejected": true,
+    "wrong_z0_verify_rejected": true
+  },
+  "pp_bytes_bincode": 34796564,
+  "primary_augmented_constraints": 16705,
+  "primary_pcs": "HyperKZG",
+  "primary_snark": "MicroSpartan (nova_snark::spartan::ppsnark::RelaxedR1CSSNARK)",
+  "protocol": "MicroNova-family (microsoft/Nova Bn256EngineKZG/Grumpkin + HyperKZG + MicroSpartan ppsnark)",
+  "record_sha256": "2f427549844fd3cbe2ed8ba3ae944e708c7510374e13b9156890f993852ab043",
+  "retained_step_witness_bytes": 352,
+  "secondary_augmented_constraints": 10538,
+  "secondary_pcs": "IPA-PC",
+  "secondary_snark": "Spartan (nova_snark::spartan::snark::RelaxedR1CSSNARK)",
+  "setup_compress_keys_ms": 696.742625,
+  "setup_pp_ms": 1310.5641660000001,
+  "step_prove_ms_median": [
+    126.672167,
+    172.796959,
+    172.295292,
+    169.060125
+  ],
+  "upstream_commit": "01b1e2d662a847ed7029770ecbaf6687398899dd",
+  "vk_bytes_bincode": 5650063,
+  "vk_bytes_zlib": 1694304
+}

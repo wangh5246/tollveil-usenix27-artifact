@@ -1,0 +1,93 @@
+\begin{figure*}[t]
+\centering
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\begin{tikzpicture}[
+  font=\scriptsize,
+  v/.style={circle, draw=tvblue!80!black, fill=tvblue!15, inner sep=1.2pt, minimum size=4.6mm},
+  h/.style={rectangle, rounded corners=1.5pt, draw=tvteal!80!black, fill=tvteal!15, inner sep=2pt, minimum height=4.5mm},
+  c/.style={rectangle, rounded corners=1.5pt, draw=tvamber!80!black, fill=tvamber!18, inner sep=2.2pt, minimum height=4.8mm},
+  arr/.style={-{Stealth[length=1.6mm,width=1.2mm]}, line width=0.6pt, draw=tvslate}
+]
+% Layer i sources
+\node[v] (u1) at (0, 2.2) {$u_1$};
+\node[v] (u2) at (0, 1.3) {$u_2$};
+\node[v] (u3) at (0, 0.4) {$u_3$};
+\node[font=\scriptsize\bfseries, text=tvblue!80!black] at (0, 2.78) {Layer $i$ ($396$)};
+
+% Y-box hubs
+\node[h] (b1) at (1.55, 2.0) {$B_1$};
+\node[h] (b2) at (1.55, 1.0) {$B_2$};
+\node[c] (clq) at (1.55, 0.15) {Clique};
+\node[font=\scriptsize\bfseries, text=tvteal!80!black] at (1.55, 2.78) {Y-Box / Clique};
+
+% X-row hubs
+\node[h] (r1) at (3.25, 2.2) {$X_1$};
+\node[h] (r2) at (3.25, 1.3) {$X_2$};
+\node[h] (r3) at (3.25, 0.4) {$X_3$};
+\node[font=\scriptsize\bfseries, text=tvteal!80!black] at (3.25, 2.78) {X-Row ($400$)};
+
+% Layer i+1 targets
+\node[v] (t1) at (4.85, 2.2) {$v_1$};
+\node[v] (t2) at (4.85, 1.3) {$v_2$};
+\node[v] (t3) at (4.85, 0.4) {$v_3$};
+\node[font=\scriptsize\bfseries, text=tvblue!80!black] at (4.85, 2.78) {Layer $i{+}1$};
+
+% Edges: u -> B -> X -> v
+\foreach \u in {u1,u2} {\draw[arr] (\u) -- (b1);}
+\foreach \u in {u2,u3} {\draw[arr] (\u) -- (b2);}
+\draw[arr, draw=tvamber!80!black, dashed] (u3) -- (clq);
+\draw[arr] (b1) -- (r1);
+\draw[arr] (b1) -- (r2);
+\draw[arr] (b2) -- (r2);
+\draw[arr] (b2) -- (r3);
+\draw[arr, draw=tvamber!80!black, dashed] (clq) -- (b2);
+\draw[arr] (r1) -- (t1);
+\draw[arr] (r1) -- (t2);
+\draw[arr] (r2) -- (t2);
+\draw[arr] (r3) -- (t2);
+\draw[arr] (r3) -- (t3);
+
+% Annotations
+\node[font=\tiny, text=tvslate, align=center] at (2.4, -0.45) {Short tier ($3{\times}3$): $3{,}283 \to 2{,}290$ slacks. Long tier: $51$ cover hubs};
+\end{tikzpicture}
+\\[1.5mm]
+{\footnotesize (a)}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\begin{tikzpicture}[
+  font=\scriptsize,
+  nd/.style={rectangle, rounded corners=2pt, draw=tvslate!80!black, fill=tvlight, inner sep=2.5pt, minimum width=13mm, minimum height=5mm, align=center},
+  act/.style={rectangle, rounded corners=2pt, draw=tvred!85!black, fill=tvred!14, inner sep=2.5pt, minimum width=13mm, minimum height=5mm, align=center},
+  sib/.style={rectangle, rounded corners=2pt, draw=tvteal!80!black, fill=tvteal!15, inner sep=2.5pt, minimum width=13mm, minimum height=5mm, align=center},
+  arr/.style={-{Stealth[length=1.5mm,width=1.1mm]}, line width=0.6pt, draw=tvslate}
+]
+% Root
+\node[act] (root) at (2.4, 2.35) {Root $(H', U')$};
+% Mid level
+\node[sib] (m1) at (1.1, 1.45) {Sib $(H_{01}, U_{01})$};
+\node[act] (m2) at (3.7, 1.45) {Node $(H'_{23}, U'_{23})$};
+% Leaves
+\node[nd, minimum width=10.5mm] (g0) at (0.35, 0.45) {Gap 0};
+\node[nd, minimum width=10.5mm] (g1) at (1.85, 0.45) {Gap 1};
+\node[act, minimum width=10.5mm] (g2) at (3.1, 0.45) {Gap 2*};
+\node[sib, minimum width=10.5mm] (g3) at (4.45, 0.45) {Gap 3};
+
+\draw[arr] (g0) -- (m1);
+\draw[arr] (g1) -- (m1);
+\draw[arr, draw=tvred!80!black] (g2) -- (m2);
+\draw[arr, draw=tvteal!80!black] (g3) -- (m2);
+\draw[arr, draw=tvteal!80!black] (m1) -- (root);
+\draw[arr, draw=tvred!80!black] (m2) -- (root);
+
+\node[font=\tiny, text=tvslate, align=center] at (2.4, -0.45) {Only touched gap ($g{=}4$) recomputes DP. $\log_2(n/g)$ sibling hashes verified};
+\end{tikzpicture}
+\\[1.5mm]
+{\footnotesize (b)}
+\end{minipage}
+\vspace{-1mm}
+\caption{(a)~Short-tier transitions factor through row and box hubs. The long-tier cover has 51 boxes. The compiled 396-cell update uses \CausalConstraints{} constraints. (b)~A registered anchor separates each four-slot gap. A local update uses the sibling digests and caps, with $O(gN^2+\log(n/g))$ Bellman and tree work for $N$ local vertices.}
+\label{fig:mechanisms}
+\vspace{-2mm}
+\end{figure*}

@@ -1,0 +1,243 @@
+{
+  "suite": "m06a",
+  "scope": "timestamp-aligned recorded cohort with synthetic credentials",
+  "smoke": false,
+  "scored_cases": 2000,
+  "witness_backend": "wasm",
+  "chronological_m06a_holdout": true,
+  "bucket_units": 10,
+  "privacy": {
+    "hold": {
+      "groups": 360,
+      "non_singleton_groups": 231,
+      "distinct_route_groups": 4,
+      "records_in_distinct_route_groups": 51,
+      "worst_pointwise_increase": 1.6653345369377348e-15,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 2000,
+        "expected_top1": 0.998,
+        "prior_vulnerability": 0.9995550539142466,
+        "posterior_vulnerability": 0.9995550539142466,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 1871,
+        "expected_top1": 0.9978621058257616,
+        "prior_vulnerability": 0.9995243761777088,
+        "posterior_vulnerability": 0.9995243761777088,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "single_slot4_bucket": {
+      "groups": 360,
+      "non_singleton_groups": 231,
+      "distinct_route_groups": 4,
+      "records_in_distinct_route_groups": 51,
+      "worst_pointwise_increase": 1.6653345369377348e-15,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 2000,
+        "expected_top1": 0.998,
+        "prior_vulnerability": 0.9995550539142466,
+        "posterior_vulnerability": 0.9995550539142466,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 1871,
+        "expected_top1": 0.9978621058257616,
+        "prior_vulnerability": 0.9995243761777088,
+        "posterior_vulnerability": 0.9995243761777088,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "multi_slot_bucket": {
+      "groups": 360,
+      "non_singleton_groups": 231,
+      "distinct_route_groups": 4,
+      "records_in_distinct_route_groups": 51,
+      "worst_pointwise_increase": 1.6653345369377348e-15,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 2000,
+        "expected_top1": 0.998,
+        "prior_vulnerability": 0.9995550539142466,
+        "posterior_vulnerability": 0.9995550539142466,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 1871,
+        "expected_top1": 0.9978621058257616,
+        "prior_vulnerability": 0.9995243761777088,
+        "posterior_vulnerability": 0.9995243761777088,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "exact": {
+      "groups": 360,
+      "non_singleton_groups": 231,
+      "distinct_route_groups": 4,
+      "records_in_distinct_route_groups": 51,
+      "worst_pointwise_increase": 1.6653345369377348e-15,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 2000,
+        "expected_top1": 0.998,
+        "prior_vulnerability": 0.9995550539142466,
+        "posterior_vulnerability": 0.9995550539142466,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 1871,
+        "expected_top1": 0.9978621058257616,
+        "prior_vulnerability": 0.9995243761777088,
+        "posterior_vulnerability": 0.9995243761777088,
+        "min_entropy_leak_bits": 0.0
+      }
+    }
+  },
+  "selected_case_privacy": {
+    "hold": {
+      "groups": 32,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 0,
+      "records_in_distinct_route_groups": 0,
+      "worst_pointwise_increase": 0.0,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 36,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 8,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "single_slot4_bucket": {
+      "groups": 32,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 0,
+      "records_in_distinct_route_groups": 0,
+      "worst_pointwise_increase": 0.0,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 36,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 8,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "multi_slot_bucket": {
+      "groups": 32,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 0,
+      "records_in_distinct_route_groups": 0,
+      "worst_pointwise_increase": 0.0,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 36,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 8,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "exact": {
+      "groups": 32,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 0,
+      "records_in_distinct_route_groups": 0,
+      "worst_pointwise_increase": 0.0,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 36,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 8,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 1.0,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.0
+      }
+    }
+  },
+  "fleet": {
+    "hold": {
+      "settled_sessions": 36,
+      "precommit_verified_transitions": 288,
+      "peak_open_sessions": 25,
+      "peak_locked_escrow": 18176,
+      "midtrip_credits_total": 0,
+      "final_refund_credits_total": 11992,
+      "midtrip_credits_reused": 0,
+      "final_credits_reused": 3148,
+      "externally_funded": 21953,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.0
+    },
+    "single_slot4_bucket": {
+      "settled_sessions": 36,
+      "precommit_verified_transitions": 288,
+      "peak_open_sessions": 25,
+      "peak_locked_escrow": 18176,
+      "midtrip_credits_total": 6960,
+      "final_refund_credits_total": 5032,
+      "midtrip_credits_reused": 1140,
+      "final_credits_reused": 2008,
+      "externally_funded": 21953,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.0
+    },
+    "multi_slot_bucket": {
+      "settled_sessions": 36,
+      "precommit_verified_transitions": 288,
+      "peak_open_sessions": 25,
+      "peak_locked_escrow": 16556,
+      "midtrip_credits_total": 11820,
+      "final_refund_credits_total": 172,
+      "midtrip_credits_reused": 4720,
+      "final_credits_reused": 48,
+      "externally_funded": 20333,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.08912852112676062
+    },
+    "exact": {
+      "settled_sessions": 36,
+      "precommit_verified_transitions": 288,
+      "peak_open_sessions": 25,
+      "peak_locked_escrow": 16532,
+      "midtrip_credits_total": 11992,
+      "final_refund_credits_total": 0,
+      "midtrip_credits_reused": 4792,
+      "final_credits_reused": 0,
+      "externally_funded": 20309,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.09044894366197187
+    }
+  }
+}

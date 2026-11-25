@@ -1,0 +1,29 @@
+\section{Certifying coupled upper envelopes}
+\label{sec:bellman}
+
+\input{figures/fig2_bellman_gap}
+
+An upper bound based on separate layer maxima can combine transitions from incompatible walks. The settlement circuit certifies the maximum of a single legal walk. It uses only an upper envelope for admission. Lower envelopes serve as an offline width diagnostic.
+
+Let $\phi_i(u)$ be the value of the maximum legal suffix from vertex $u$ in layer $i$. A verifier needs both a feasible walk attaining the claimed amount and inequalities that upper-bound every feasible suffix. The circuit enforces terminal potential zero at legal terminal vertices. It lifts liveness backward from those vertices. A live transition $(u,v)$ enforces
+\begin{equation}
+\label{eq:bellman}
+\phi_i(u)=\phi_{i+1}(v)+w_i(u,v)+s_{i,u,v},\qquad
+0\le s_{i,u,v}<2^{b_i}.
+\end{equation}
+The prover supplies the maximizing walk and slacks. The left- and right-hand expressions use the authenticated slot, the registered tariff, and the indicated active branch.
+
+\paragraph{Rome two-dimensional factorization.}
+The short tier has 3,283 directed edges. Its interior adjacency factors into horizontal successors and vertical successors, with 1,148 horizontal and 1,142 vertical links. A horizontal hub bounds the maximum over a row, then a vertical hub bounds the three neighboring row values. Backward liveness is subject to the same geometry. Two sink cells preserve their self-loops. The long tier reuses a cover of 51 boxes reaching every one of the 396 destinations. Twelve destinations occur twice in the cover. Repeated values leave the maximum unchanged. The cover represents 156,026 long edges with the registered sink exceptions. Short and long distances are bounded by 128 and 400, respectively. Unelapsed slots use the long fallback, and the prover uses signed tier and cap fields on elapsed slots.
+
+\paragraph{Sparse gantry and anchored-gap relations.}
+The Taiwan relation checks each directed edge of the calibrated graph with a vehicle-class tariff. Anchored gaps factor a long corridor when each boundary vertex is fixed by the registrar. At fixed local vertex count $N$, recomputing a gap of $g$ slots costs $O(gN^2)$ dense Bellman work. An authenticated sum tree adds logarithmic cost for continuation. The uncoupled total is the sum of the per-gap maxima. The bounds remain conditioned on the registered anchors.
+
+\begin{lemma}[Integer lifting and exact certification]
+\label{lem:lift}
+For the registered Rome, Taiwan and four-slot gap domains, a satisfying certificate implies the stated fee bound over the integers. The constrained attaining walk, or the exact anchored recurrence, establishes equality to $U^*(\mathcal I_k)$. The accounting constraints lift to integer comparisons.
+\end{lemma}
+
+\begin{proof}[Proof sketch]
+Backward induction forces live successors along each legal walk. Using Equation~\eqref{eq:bellman} and its hub decomposition along that walk gives a telescoping upper bound modulo the field prime. In Rome the route maximum is at most 147,200. An opened edge uses an 18-bit slack, and an unopened layer uses at most three 17-bit slacks. The nonnegative sum is below $2^{22}$, far below the BN254 prime. The Taiwan maximum is at most $8\cdot320=2{,}560<2^{15}$. The four-slot gap has cap $4\cdot63=252<2^9$. Appendix~\ref{app:proofs} gives the range and predecessor arguments.
+\end{proof}

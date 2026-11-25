@@ -1,0 +1,32 @@
+{
+  "authored": {
+    "figures/fig1_arch.tex": "052175b43ba63e5523b91bfbc06e4dc82591b489240822d20c882ee4868eff29",
+    "figures/fig2_bellman_gap.tex": "75687417e77116ca1b84cf470084a9da57aa574b8962bddb445d694ee7f98028",
+    "main.tex": "550a085287f9baf92dc84e501485f7166ec57e1d7620fea7efa722c4f5638748",
+    "references.bib": "0d785fcec39a0f6e6130aeda6021d7132afe1b608b276363175b7897cf156f1d",
+    "sections/abstract.tex": "45708fbc800e80620ab4fdfd3fb3392f51a8a26804053830351d1ade24bfb5c3",
+    "sections/appendices.tex": "0ceb4f8083999ccc30d268656c63f80d9d1c3a11ff29c2d73e93dde66cdba28e",
+    "sections/bellman.tex": "0491b11a80001f58de477e2813a1fc2abe7d6fa5fac836b85667288a23ffea58",
+    "sections/conclusion.tex": "e1dacfc603bea83dd4a33b48e8e0a38fcc025b580c4eb60337424b2c3018f56f",
+    "sections/discussion.tex": "b268ea064b8ea222396a3dce027cc258481e5adca03619b87cd19aa997234ca2",
+    "sections/evaluation.tex": "38e056d9afdf351ed47968aa6c0e6f994d6b46e009f4b4a5841cc69c919097f8",
+    "sections/introduction.tex": "6d528aa9a6658900d3984e424e4c39cbe1605ea0786d8630e6aa9c457bcc3b0e",
+    "sections/model.tex": "a6e3681bd66e42ff9d723324ae87d1f6d97a1109a521e4e280e486a7fe4b4a5c",
+    "sections/protocol.tex": "236476f7de110f0440bfb6061d2260f1a2eaa3e282b5bb323527efc49338bd81",
+    "sections/related.tex": "26fd33e0546ab2faf1c5e8cfff54e0b46e98e0d4a211184ebe305b996f2af440",
+    "sections/stopping.tex": "c14b1f9f4dbbfbca19c11b96bdd524decb11d8ca84c38580ba4c0ed46b01db45",
+    "usenix.sty": "2278c83173e084a00fcf76d3227acb971f5137ecea993a5b4e13a9b2bd67b45e"
+  },
+  "generated": {
+    "expected_facts.json": "42c85db7882235b358e1afd0d3202edee4fcd61a3e02062036e9b3677e58fde7",
+    "facts.tex": "bc653784848ed4f2cb092c9e018f7d42f28bfe4ff028ce3b09b9ddc53f775a8f",
+    "figures/fig3_scaling.pdf": "bcf2ccf8680c0e2bd155bbd66a0a4f21de44d7d8c21985e7da4f80e116b71d12",
+    "figures/fig4_privacy_net.pdf": "04538ccd34fd34c1b8f98066491c36950e078dc99678517ac5342123a21565d6",
+    "figures/fig5_real_corridors.pdf": "0d4385571b248fb3943df7a6a05d306221dbcf18d49a77b7f8eac95f2aabccde",
+    "figures/fig6_baselines_close.pdf": "254a1ecd494985e7b60762cf6a1c71ff9fd08144d41ebcc935ce3a54187b3ca5",
+    "tables/tab_baselines.tex": "349a3d7495a4bf84842f2f17146e1290827fbc2a5ce155317dad296b337a9a32",
+    "tables/tab_privacy.tex": "17ba076ad55fc93eb3267c69f491b38a4bd48cf9c14a05e2c88b988353dca755",
+    "tables/tab_real_corridors.tex": "f8294a0fdce04902602850450a828564a02bb933879bd5d0bb01c6087c008c81",
+    "tables/tab_scaling_obu.tex": "cfccd93157e792e210b9f4f9ef8169e7d4584f1debc2478ba7ecb48b2c64260a"
+  }
+}

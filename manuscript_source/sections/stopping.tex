@@ -1,0 +1,21 @@
+\section{Early release under stopping interventions}
+\label{sec:stopping}
+
+The amount channel persists even when the proof hides the route. A safe cumulative release at site $k$ is bounded by $b(h,k)=D(h)-U^*(\mathcal I_k(h))$. Consider a fixed finite support $\mathcal H$ of legal histories, release sites, and an intervention policy specifying the permitted stops after each site. Fix the payer observation at each site and the terminal settlement key at each permitted stop. The key includes the charge $Q$, entry and other relevant public fields. The key also identifies the stop and bulletin scope. For histories with the same key at stop $t$, zero extra amount leakage requires identical distributions of release prefixes through $t$.
+
+\begin{theorem}[Exact envelopes and greatest finite-support release]
+\label{thm:stop}
+For the registered domains, Lemma~\ref{lem:lift} certifies the exact envelope with a bounded certificate for each legal information set. Honest transition completeness further requires an eligible predecessor, role and opening increment in the selected relation. Form nodes $(h,k)$ and identify two at the same site if their payer observations agree or an allowed common stop $t\ge k$ has the same terminal settlement key. Add edges in chronological order within each history. Contract the strongly connected components of the resulting quotient graph. With $b_c$ the minimum of the original caps in component $c$, the pointwise greatest feasible release is
+\begin{equation}
+\label{eq:gfp}
+g_c=\min_{c\leadsto d} b_d=\min\{b_c,\min_{c\to d}g_d\}.
+\end{equation}
+It dominates each almost-surely safe, pathwise monotone randomized policy with the same equalities. Adding permitted stops weakly reduces each site's release and strictly reduces it when a newly reachable cap falls below its old reachable minimum.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+Every chronological edge carries a monotonicity inequality, so cycles give equality. A component release is bounded by every cap reachable from it. Reverse order on the resulting acyclic graph computes the reachable minimum, which satisfies all the inequalities and equalities. For a randomized mechanism the same argument bounds the essential supremum of each component's release distribution, followed by the original random amount. Appendix~\ref{app:proofs} gives the construction.
+\end{proof}
+
+\paragraph{A finite-prior policy.}
+A posterior-vulnerability constraint permits small increases in route inference in exchange for earlier releases. Given a fixed joint prior over routes, the safe cap $v$, and the settlement key, optimize the policy probabilities $P(r\mid v)$ for a fixed decision site and quantized amounts. For each key and observed amount, bounding the maximum posterior probability by the prior vulnerability plus a budget yields one linear inequality per candidate route after clearing the observation mass. Each probability row sums to one and has support $r\le v$. This gives a linear program for the declared policy class. The experiments score single releases and repeated release vectors separately using the same route support and public grouping as the corresponding fleet arms.

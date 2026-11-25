@@ -1,0 +1,15 @@
+{
+  "gate": "R4",
+  "receipt_hashes": {
+    "baseline": "50a1b5bd0a3bf35092a5e84ccc18e7d18c9a566b2e84a18f9636af6580ffc981",
+    "rome_cohort": "ce91cb23f3d41f9d6b51cb0092c57d56de8901c84a4ee5f2bd7215a72398a864",
+    "rome_raw": "8af77294708b58040b7aa8ba5cf40bd7f40699ece31022f9494908824ea7043e",
+    "taiwan_cohort": "e540f72c95188bb3b3ed80301759d38cac680477a28e0994fb4366693f231172",
+    "taiwan_fleet": "c04f0cbaf49cb3b831b1c3ab82f0db85f72eba1a074a11168b07ea6dd9ca4a06",
+    "taiwan_ledger": "9f24527e8249a71d60da84f7e735f9bc086b7fc451a7d2d5dfa1ed24c833531d"
+  },
+  "rome_frozen_eligible": 856,
+  "rome_provider_archive_reproduced": true,
+  "status": "PASS",
+  "taiwan_holdout": 2000
+}

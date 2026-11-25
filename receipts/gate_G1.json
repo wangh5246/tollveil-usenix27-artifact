@@ -1,0 +1,9 @@
+{
+  "record": "G1",
+  "refs": {
+    "phase2_setup_manifest.json": "d137fd351d9c8c41ade32d1dd3031d371bd8402cbdd3b0ce4171de62b2446043",
+    "receipts/v15_1/gate_R1.json": "51868509e733d8e269225ebf196b01b86de11945fd2bea17371194f452db815c",
+    "receipts/v15_1/r2_qap_and_vkeys.json": "e734e70f0faeee184fb73441ac4ece80234c8ebbf6e4242b9204ef995c3a55cf"
+  },
+  "release": "corridor-escrow-20261125"
+}

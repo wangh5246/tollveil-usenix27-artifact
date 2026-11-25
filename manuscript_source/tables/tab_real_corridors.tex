@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Metric & Rome & Taiwan \\
+\midrule
+Selected proof sessions & 55 & 36 \\
+Admitted proofs & 220 & 108 \\
+Conservation errors & 0 & 0 \\
+Update witness / prove (ms) & 4,475.7 / 1,466.7 & 1,722.5 / 607.0 \\
+Close witness / prove (ms) & 4,472.3 / 1,544.8 & 1,381.6 / 595.7 \\
+Update pairing / precommit (ms) & 7.90 / 8.23 & 9.49 / 10.11 \\
+Close pairing / precommit (ms) & 7.75 / 8.17 & 8.63 / 9.25 \\
+Update / close bytes & 1,106 / 1,034 & 1,103 / 1,029 \\
+\midrule
+Hold escrow peak & 588,800 & 18,176 \\
+Slot 4 bucket escrow peak & 522,800 & 18,176 \\
+Multi-slot bucket escrow peak & 510,800 & 16,556 \\
+Exact escrow peak & 508,618 & 16,532 \\
+\bottomrule
+\end{tabular}
+
+\caption{Proof-gated replays on archived routes with synthetic credentials. Bytes count serialized proof and public vector. Precommit time includes pairing and transaction work before receipt insertion.}
+\label{tab:corridors}
+\end{table}

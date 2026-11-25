@@ -1,0 +1,178 @@
+{
+  "scope": "low-priority macOS host, one retained Rome witness shape",
+  "priority": "taskpolicy -b for witness calculator and prover",
+  "omp_num_threads": 2,
+  "witness_backend": "native",
+  "verifier_threads": 1,
+  "os": "26.6.2",
+  "machine": "arm64",
+  "requested_measured_trials": 12,
+  "warmups": 2,
+  "timings": [
+    {
+      "trial": 3,
+      "preparation_ms": 4.766625119373202,
+      "witness_ms": 88207.07050012425,
+      "prove_ms": 3916.9327078852803,
+      "verify_ms": 10.380457853898406,
+      "pairing_ms": 9.668084,
+      "total_ms": 92134.38366586342,
+      "witness_peak_rss_mib": 45.90625,
+      "prover_peak_rss_mib": 428.21875,
+      "proof_and_vector_bytes": 1105
+    },
+    {
+      "trial": 6,
+      "preparation_ms": 4.5807501301169395,
+      "witness_ms": 85417.27441595867,
+      "prove_ms": 18303.24629205279,
+      "verify_ms": 12.269083876162767,
+      "pairing_ms": 11.059792,
+      "total_ms": 103732.78979188763,
+      "witness_peak_rss_mib": 41.734375,
+      "prover_peak_rss_mib": 407.125,
+      "proof_and_vector_bytes": 1107
+    },
+    {
+      "trial": 7,
+      "preparation_ms": 2.8142081573605537,
+      "witness_ms": 285.23258306086063,
+      "prove_ms": 28334.324416937307,
+      "verify_ms": 16.016999958083034,
+      "pairing_ms": 15.349792,
+      "total_ms": 28635.57399995625,
+      "witness_peak_rss_mib": 47.4375,
+      "prover_peak_rss_mib": 422.40625,
+      "proof_and_vector_bytes": 1107
+    },
+    {
+      "trial": 8,
+      "preparation_ms": 5.469458876177669,
+      "witness_ms": 19999.644584022462,
+      "prove_ms": 78410.699875094,
+      "verify_ms": 21.30454103462398,
+      "pairing_ms": 20.073834,
+      "total_ms": 98431.64900015108,
+      "witness_peak_rss_mib": 44.203125,
+      "prover_peak_rss_mib": 345.578125,
+      "proof_and_vector_bytes": 1108
+    },
+    {
+      "trial": 9,
+      "preparation_ms": 4.419041099026799,
+      "witness_ms": 3231.1471248976886,
+      "prove_ms": 37290.042583830655,
+      "verify_ms": 23.695708019658923,
+      "pairing_ms": 22.091958,
+      "total_ms": 40544.885416748,
+      "witness_peak_rss_mib": 46.828125,
+      "prover_peak_rss_mib": 397.328125,
+      "proof_and_vector_bytes": 1109
+    },
+    {
+      "trial": 12,
+      "preparation_ms": 3.0487910844385624,
+      "witness_ms": 3287.117167143151,
+      "prove_ms": 6818.335875170305,
+      "verify_ms": 11.662040837109089,
+      "pairing_ms": 9.35275,
+      "total_ms": 10117.115083150566,
+      "witness_peak_rss_mib": 47.453125,
+      "prover_peak_rss_mib": 412.171875,
+      "proof_and_vector_bytes": 1105
+    }
+  ],
+  "summary": {
+    "preparation_ms": {
+      "n": 6,
+      "q25": 3.3913535880856216,
+      "median": 4.499895614571869,
+      "q75": 4.720156372059137,
+      "p95": 5.293750436976552
+    },
+    "witness_ms": {
+      "n": 6,
+      "q25": 3245.1396354590543,
+      "median": 11643.380875582807,
+      "q75": 69062.86695797462,
+      "p95": 87509.62147908285
+    },
+    "prove_ms": {
+      "n": 6,
+      "q25": 9689.563479390927,
+      "median": 23318.78535449505,
+      "q75": 35051.11304210732,
+      "p95": 68130.53555227816
+    },
+    "verify_ms": {
+      "n": 6,
+      "q25": 11.813801596872509,
+      "median": 14.1430419171229,
+      "q75": 19.982655765488744,
+      "p95": 23.097916273400187
+    },
+    "pairing_ms": {
+      "n": 6,
+      "q25": 10.016011,
+      "median": 13.204792000000001,
+      "q75": 18.892823500000002,
+      "p95": 21.587427
+    },
+    "total_ms": {
+      "n": 6,
+      "q25": 31612.90185415419,
+      "median": 66339.63454130571,
+      "q75": 96857.33266657917,
+      "p95": 102407.50459395349
+    },
+    "witness_peak_rss_mib": {
+      "n": 6,
+      "q25": 44.62890625,
+      "median": 46.3671875,
+      "q75": 47.28515625,
+      "p95": 47.44921875
+    },
+    "prover_peak_rss_mib": {
+      "n": 6,
+      "q25": 399.77734375,
+      "median": 409.6484375,
+      "q75": 419.84765625,
+      "p95": 426.765625
+    },
+    "proof_and_vector_bytes": {
+      "n": 6,
+      "q25": 1105.5,
+      "median": 1107.0,
+      "q75": 1107.75,
+      "p95": 1108.75
+    }
+  },
+  "peak_child_rss_mib": 428.21875,
+  "failures": [
+    {
+      "trial": 1,
+      "type": "TimeoutExpired"
+    },
+    {
+      "trial": 2,
+      "type": "TimeoutExpired"
+    },
+    {
+      "trial": 4,
+      "type": "TimeoutExpired"
+    },
+    {
+      "trial": 5,
+      "type": "TimeoutExpired"
+    },
+    {
+      "trial": 10,
+      "type": "TimeoutExpired"
+    },
+    {
+      "trial": 11,
+      "type": "CalledProcessError"
+    }
+  ],
+  "build_manifest_sha256": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb"
+}

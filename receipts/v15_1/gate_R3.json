@@ -1,0 +1,39 @@
+{
+  "gate": "R3",
+  "host_sha256": "b086ca06ad1193ff249ab0dba49c4374c063fed2f0271b4b11ae7f4b395e0459",
+  "host_total_ms": {
+    "median": 3669.0808745333925,
+    "n": 12,
+    "p95": 6759.323464101177,
+    "q25": 3516.6622092947364,
+    "q75": 3949.457312352024
+  },
+  "matched_fleet": {
+    "m06a": {
+      "bucket": 10,
+      "cohort": 2000,
+      "joint_violation_count": 0,
+      "peak_locked": {
+        "exact": 9277,
+        "hold": 9408,
+        "multi_slot_bucket": 9278,
+        "single_slot4_bucket": 9278
+      },
+      "report_sha256": "1ece5907c3e4b07910647e40c421e9d81af367cad4a7a691591a7a6e13be4711"
+    },
+    "rome": {
+      "bucket": 2000,
+      "cohort": 337,
+      "joint_violation_count": 30,
+      "peak_locked": {
+        "exact": 508618,
+        "hold": 588800,
+        "multi_slot_bucket": 510800,
+        "single_slot4_bucket": 522800
+      },
+      "report_sha256": "11682a6dd96aec781e3ee260039fc1f88f7aa37c4632afbf82644d7222dfe1e0"
+    }
+  },
+  "status": "PASS",
+  "stopping_sha256": "0ddf86ef5a484af270a594188cf232b8550dd4b09b7f763489dd6182958db1ae"
+}

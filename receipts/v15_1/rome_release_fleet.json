@@ -1,0 +1,242 @@
+{
+  "suite": "rome",
+  "scope": "timestamp-aligned recorded cohort with synthetic credentials",
+  "smoke": false,
+  "scored_cases": 337,
+  "witness_backend": "native",
+  "bucket_units": 2000,
+  "privacy": {
+    "hold": {
+      "groups": 272,
+      "non_singleton_groups": 30,
+      "distinct_route_groups": 30,
+      "records_in_distinct_route_groups": 95,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 337,
+        "expected_top1": 0.8160237388724035,
+        "prior_vulnerability": 0.8704596999159724,
+        "posterior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 95,
+        "expected_top1": 0.3473684210526316,
+        "prior_vulnerability": 0.540472830228239,
+        "posterior_vulnerability": 0.540472830228239,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "single_slot4_bucket": {
+      "groups": 272,
+      "non_singleton_groups": 30,
+      "distinct_route_groups": 30,
+      "records_in_distinct_route_groups": 95,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 337,
+        "expected_top1": 0.8160237388724035,
+        "prior_vulnerability": 0.8704596999159724,
+        "posterior_vulnerability": 0.8704596999159724,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 95,
+        "expected_top1": 0.3473684210526316,
+        "prior_vulnerability": 0.540472830228239,
+        "posterior_vulnerability": 0.540472830228239,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "multi_slot_bucket": {
+      "groups": 272,
+      "non_singleton_groups": 30,
+      "distinct_route_groups": 30,
+      "records_in_distinct_route_groups": 95,
+      "worst_pointwise_increase": 0.740168663317363,
+      "outcomes_exceeding_five_pp": 30,
+      "all": {
+        "records": 337,
+        "expected_top1": 0.8813056379821959,
+        "prior_vulnerability": 0.8704596999159724,
+        "posterior_vulnerability": 0.9194362102504813,
+        "min_entropy_leak_bits": 0.07897197879169272
+      },
+      "non_singleton": {
+        "records": 95,
+        "expected_top1": 0.5789473684210527,
+        "prior_vulnerability": 0.540472830228239,
+        "posterior_vulnerability": 0.7142105563622335,
+        "min_entropy_leak_bits": 0.4021273628189733
+      }
+    },
+    "exact": {
+      "groups": 272,
+      "non_singleton_groups": 30,
+      "distinct_route_groups": 30,
+      "records_in_distinct_route_groups": 95,
+      "worst_pointwise_increase": 0.740168663317363,
+      "outcomes_exceeding_five_pp": 60,
+      "all": {
+        "records": 337,
+        "expected_top1": 0.9881305637982196,
+        "prior_vulnerability": 0.8704596999159724,
+        "posterior_vulnerability": 0.9882410660894525,
+        "min_entropy_leak_bits": 0.183085501543678
+      },
+      "non_singleton": {
+        "records": 95,
+        "expected_top1": 0.9578947368421052,
+        "prior_vulnerability": 0.540472830228239,
+        "posterior_vulnerability": 0.9582867291804791,
+        "min_entropy_leak_bits": 0.8262352946886141
+      }
+    }
+  },
+  "selected_case_privacy": {
+    "hold": {
+      "groups": 50,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 3,
+      "records_in_distinct_route_groups": 7,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 55,
+        "expected_top1": 0.9272727272727272,
+        "prior_vulnerability": 0.9443390729013843,
+        "posterior_vulnerability": 0.9443390729013843,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 9,
+        "expected_top1": 0.5555555555555556,
+        "prior_vulnerability": 0.6598498899529046,
+        "posterior_vulnerability": 0.6598498899529046,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "single_slot4_bucket": {
+      "groups": 50,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 3,
+      "records_in_distinct_route_groups": 7,
+      "worst_pointwise_increase": 1.1102230246251565e-16,
+      "outcomes_exceeding_five_pp": 0,
+      "all": {
+        "records": 55,
+        "expected_top1": 0.9272727272727272,
+        "prior_vulnerability": 0.9443390729013843,
+        "posterior_vulnerability": 0.9443390729013843,
+        "min_entropy_leak_bits": 0.0
+      },
+      "non_singleton": {
+        "records": 9,
+        "expected_top1": 0.5555555555555556,
+        "prior_vulnerability": 0.6598498899529046,
+        "posterior_vulnerability": 0.6598498899529046,
+        "min_entropy_leak_bits": 0.0
+      }
+    },
+    "multi_slot_bucket": {
+      "groups": 50,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 3,
+      "records_in_distinct_route_groups": 7,
+      "worst_pointwise_increase": 0.6409326640933526,
+      "outcomes_exceeding_five_pp": 4,
+      "all": {
+        "records": 55,
+        "expected_top1": 0.9636363636363636,
+        "prior_vulnerability": 0.9443390729013843,
+        "posterior_vulnerability": 0.9770538420681941,
+        "min_entropy_leak_bits": 0.04913310191472339
+      },
+      "non_singleton": {
+        "records": 9,
+        "expected_top1": 0.7777777777777778,
+        "prior_vulnerability": 0.6598498899529046,
+        "posterior_vulnerability": 0.8597734793056311,
+        "min_entropy_leak_bits": 0.38181874806986194
+      }
+    },
+    "exact": {
+      "groups": 50,
+      "non_singleton_groups": 4,
+      "distinct_route_groups": 3,
+      "records_in_distinct_route_groups": 7,
+      "worst_pointwise_increase": 0.6409326640933526,
+      "outcomes_exceeding_five_pp": 7,
+      "all": {
+        "records": 55,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 0.9443390729013843,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.08262313046875183
+      },
+      "non_singleton": {
+        "records": 9,
+        "expected_top1": 1.0,
+        "prior_vulnerability": 0.6598498899529046,
+        "posterior_vulnerability": 1.0,
+        "min_entropy_leak_bits": 0.599790233524992
+      }
+    }
+  },
+  "fleet": {
+    "hold": {
+      "settled_sessions": 55,
+      "precommit_verified_transitions": 440,
+      "peak_open_sessions": 4,
+      "peak_locked_escrow": 588800,
+      "midtrip_credits_total": 0,
+      "final_refund_credits_total": 7919380,
+      "midtrip_credits_reused": 0,
+      "final_credits_reused": 7440828,
+      "externally_funded": 627172,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.0
+    },
+    "single_slot4_bucket": {
+      "settled_sessions": 55,
+      "precommit_verified_transitions": 440,
+      "peak_open_sessions": 4,
+      "peak_locked_escrow": 522800,
+      "midtrip_credits_total": 3600000,
+      "final_refund_credits_total": 4319380,
+      "midtrip_credits_reused": 3534000,
+      "final_credits_reused": 3972828,
+      "externally_funded": 561172,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.11209239130434778
+    },
+    "multi_slot_bucket": {
+      "settled_sessions": 55,
+      "precommit_verified_transitions": 440,
+      "peak_open_sessions": 4,
+      "peak_locked_escrow": 510800,
+      "midtrip_credits_total": 6610000,
+      "final_refund_credits_total": 1309380,
+      "midtrip_credits_reused": 6443600,
+      "final_credits_reused": 1075228,
+      "externally_funded": 549172,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.13247282608695654
+    },
+    "exact": {
+      "settled_sessions": 55,
+      "precommit_verified_transitions": 440,
+      "peak_open_sessions": 4,
+      "peak_locked_escrow": 508618,
+      "midtrip_credits_total": 6653230,
+      "final_refund_credits_total": 1266150,
+      "midtrip_credits_reused": 6483378,
+      "final_credits_reused": 1037632,
+      "externally_funded": 546990,
+      "conservation_errors": 0,
+      "peak_reduction_from_hold": 0.13617866847826088
+    }
+  }
+}

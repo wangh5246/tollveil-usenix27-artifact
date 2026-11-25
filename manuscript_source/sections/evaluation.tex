@@ -1,0 +1,71 @@
+\section{Evaluation}
+\label{sec:eval}
+The evaluation measures proof and storage costs, the admission boundary, the amount channel, and fleet escrow. The build pins Circom 2.1.9, its first optimization level, BN254 and the bundled circuit library. The host is an Apple M4 Mac with 16 GiB memory. The payload includes \CircuitMains{} compiled mains, \ApplicationKeys{} application verification keys with \PublicCoordinates{} public inputs, and \ProofBundles{} proof bundles.
+
+\subsection{Constraint and host costs}
+\label{sec:eval-scale}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig3_scaling.pdf}
+\caption{Prepared-witness component costs. (a) Vertex scaling. Error bars show symmetric half interquartile ranges. The 396-cell case uses the causal hub circuit. (b) Full and local proving replay the same opening on registered four-slot gaps.}
+\label{fig:scaling}
+\end{figure*}
+
+\input{tables/tab_scaling_obu}
+
+The stored prepared-witness benchmarks compare four sparse vertex cases with a separate 396-cell hub design. The vertex A/A arms measure repeatability within each architecture and vertex count. The largest case recorded 8 MiB additional used swap and 307 pageouts. The local-gap relation amortizes the authenticated sibling path and reduces proving in the registered 16- and 32-slot cases. Setup and anchor enrollment are separate from these prepared-witness timings.
+
+For the current 396-cell update, each of \HostTrials{} host trials generates a native witness, proves, and verifies the same trial. The witness and prover run as macOS background-priority processes with a requested two-thread OpenMP setting. Median end-to-end latency is \HostMedian{} s (Q25--Q75 \HostQone{}--\HostQthree{} s, p95 \HostPninetyfive{} s). Peak child RSS is \HostRSS{} MiB. A separate attempt during fleet proving had \HostLoadedFailures{} failures among \HostLoadedTrials{} timed trials. The receipt retains that attempt. Device limits, ARM latency and delegated networking are outside this host measurement.
+
+\subsection{Authenticated comparator costs}
+\label{sec:eval-baselines}
+
+\input{tables/tab_baselines}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig6_baselines_close.pdf}
+\caption{(a) Persistent catalog storage on the 16-slot signed fixtures. (b) Wall stages for a gap digest close, including the separate authoritative certification. The scope of each panel determines its units.}
+\label{fig:baseline-close}
+\end{figure*}
+
+The signed prototype arms authenticate an opening and compute a safe release and terminal charge. The plaintext arm reveals opened edges to the charger. The online trusted source computes and signs the bound after receiving the authorized mask. Offline programs sign a catalog before the trip under the stronger assumption that the source knows the route. A factored catalog stores $m\,2^g$ rows with independent enrolled anchors. In the coupled catalog the candidate path can cross every intermediate boundary, and the exhaustive encoding stores $2^n$ rows. The charger verifies the returned entries and the declared mask. Storage, bytes on the wire, prep, and terminal costs are separately reported. The four signed arms share one settlement objective and differ in disclosure and trust. The two proof-based rows use their own corridor inputs. The named external protocols exercise different primitives, shown in the lower panel of Table~\ref{tab:baselines} with their measurement scopes.
+
+A complete digest close includes \GapCertifyCloseMs{} ms for the measured certification-plus-close path. The digest proof and its admission account for \GapCloseMs{} ms of that total. Figure~\ref{fig:baseline-close}(b) uses one common fault and predecessor scope. A separate component fixture satisfies the stateful requirement of at least three openings per gap. With one common predecessor, bulletin and fault, raw, stateful and digest proving took \GapMatchedRawMs{}, \GapMatchedStatefulMs{} and \GapMatchedDigestMs{} ms. These three proof times exclude admission and the prior digest certification.
+
+\subsection{Stopping, amount disclosure, and transport}
+\label{sec:eval-privacy}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig4_privacy_net.pdf}
+\caption{(a) Fixed-site utility on the constructed finite support. (b) Empirical total variation (TV) and a tail bound for two simulated delay profiles. The plotted 300-second empirical value depends on the sampled executions.}
+\label{fig:privacy-net}
+\end{figure*}
+
+\input{tables/tab_privacy}
+
+The Rome experiment pairs fixed late stopping with an external stopping intervention under each of two payer information sets. The causal arm equates same-site observations, and the sealed arm exposes the complete history, including the route and measurement and fault state, to the payer. The terminal key contains the entry and settlement amount, at the same stop, under the fixed enrollment and bulletin scope. The four cells each cover \RomeStopSites{} decisions. External stopping shrinks \RomeStopCausal{} decisions under causal information and \RomeStopSealed{} under sealed history. In the causal row, fixed-late and externally chosen stopping yield \StopCausalLate{} and \StopCausalAny{} total release units across all sites. In the sealed row the corresponding totals are \StopSealedLate{} and \StopSealedAny{}.
+
+The prior fits second-order transitions on the calibration vehicles in Rome and the earlier time window in Taiwan. It is normalized on the observed holdout route dictionary grouped by settlement key, including vehicle class for Taiwan. Of the Rome support, \RomePriorGroups{} non-singleton groups contain \RomePriorBlocks{} blocks. The scorer uses the same Hold, slot-four, multi-slot and Exact policies as the fleet replay. It reports full support and fleet-subset scores separately. The Taiwan holdout contains only four terminal-key groups with distinct routes, and the fleet subset contains \TaiwanFleetRouteGroups{}. This limits the amount-channel comparison on Taiwan. The 2,000-unit Rome single bucket has \RomeSingleCapViolations{} outcomes more than five percentage points above the group's prior vulnerability. The joint seven-slot release vector has \RomeMultiCapViolations{} such outcomes, and the unconstrained Exact release has \RomeExactCapViolations{}. The Taiwan bucket width is \TaiwanBucketWidth{} new Taiwan dollars (TWD). By construction, these are posterior comparisons under the stipulated model and terminal observations. The repeated \SyntheticSupport{}-history finite benchmark has a \SyntheticGain{} single-site utility gain for its linear program over its uniform bucket.
+
+The transport model simulates two profiles with reconnection bursts and binned residual delays at fixed packet cadence, using a simplified vehicle-network methodology~\cite{tr37885}. At a 60-second window, empirical TV is \NetworkTV{} and the simultaneous tail upper bound is \NetworkBound{} under that model. The adaptive whole-view bound in Theorem~\ref{thm:priv} remains a modeling premise.
+
+\subsection{Archived corridors and timestamp-aligned fleet credits}
+\label{sec:eval-fleet}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig5_real_corridors.pdf}
+\caption{(a) Historical offline Rome envelope contraction across prefixes. (b) Peak locked escrow normalized to a matched Hold replay. Each Taiwan bar uses its own release policy and observed-time ledger receipt.}
+\label{fig:corridors}
+\end{figure*}
+
+\input{tables/tab_real_corridors}
+
+The Rome release reproduces the 1,000 historical prepared blocks byte for byte from the CRAWDAD input~\cite{crawdadroma2014}. It recenters each ten-fix block, quantizes to 100 m and evaluates these route shapes over a representative 500 m Rome road-cost graph. The eligible blocks split by taxi identifier into 476 calibration, 337 holdout and 43 reserved blocks. The earlier compiled check reports \HistoricalRomePrefix{} holdout prefixes and \HistoricalSyntheticPrefix{} synthetic prefixes, including genesis. The current selected \RomeSessions{} sessions generate \RomeProofs{} proof admissions. The injected outage cases use simulated credentials and assigned masks.
+
+The Taiwan topology is built from first detections in 08:00--08:30~\cite{taiwantdcs2019}. The held-out 08:30--09:00 slice deterministically selects \TaiwanHoldout{} trajectories supported by those \TaiwanGantries{} gantries and \TaiwanEdges{} directed edges including exit. Direct summation of the archived gantry list and the forward replay agree on \TaiwanListMatches{} trips. The fee table postdates the traces. The separate per-trip allowance diagnostic agrees on \TaiwanAllowanceMatches{} trips. Billing records with daily per-vehicle allowances are outside this comparison. The current corpus yields \TaiwanProofs{} admissions over \TaiwanSessions{} trips.
+
+The fleet evaluation replays the same sequence of enrollment and checkpoint timestamps for each policy. Proofs are prepared in advance, so live proving and queueing delays lie outside the replay clock. Rome uses archived fix times. Taiwan uses gantry detection times with virtual exit slots at the last detection. The pool admits proofs before any credit, tracking reuse of intermediate credits separately from final refunds. The recorded peaks are \RomePeakConcurrent{} simultaneous Rome trips and \TaiwanPeakConcurrent{} Taiwan trips. A single bucketed intermediate release changes peak escrow from Hold by a reduction of \RomeSinglePeakSavings{} and \TaiwanSinglePeakSavings{}, respectively. Figure~\ref{fig:corridors}(b) compares that policy with the multi-slot and Exact arms. The local pooled balance measures internal reuse. Bank transfers lie outside this replay.

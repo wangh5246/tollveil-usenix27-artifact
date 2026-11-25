@@ -1,0 +1,45 @@
+{
+  "timezone": "Asia/Taipei",
+  "calibration": [
+    "2019-08-30 08:00:00",
+    "2019-08-30 08:30:00"
+  ],
+  "test": [
+    "2019-08-30 08:30:00",
+    "2019-08-30 09:00:00"
+  ],
+  "time_field": "first gantry detection, inclusive start and exclusive end",
+  "calibration_trips": 7209,
+  "topology_eligible_test_trips": 6377,
+  "selected_test_trips": 2000,
+  "calibration_test_overlap": 0,
+  "selection_sha256": "41d67b102ec5b7f19e6ee2b5ab70d649cd7e952a26aeb5176d71105cd7be764a",
+  "profile_tag": "2570942266404483043770472473927775146835155333481527557857310339875993703108",
+  "gantries": 64,
+  "directed_edges_including_exit": 135,
+  "interchange_edges": 13,
+  "vehicle_classes": {
+    "1": 132,
+    "0": 1816,
+    "2": 52
+  },
+  "proof_selection_classes": {
+    "0": 24,
+    "1": 6,
+    "2": 6
+  },
+  "list_price_matches": 2000,
+  "per_trip_allowance": {
+    "scope": "Independent trip diagnostics with one fresh allowance per trip",
+    "allows_01twd_by_class": [
+      240,
+      300,
+      360
+    ],
+    "matches": 2000,
+    "trips_with_positive_fee": 1337,
+    "gross_01twd": 654479,
+    "after_allowance_01twd": 199633
+  },
+  "scope": "2019 trace replay under archived 2024/25 gantry list prices in 0.1 TWD units"
+}

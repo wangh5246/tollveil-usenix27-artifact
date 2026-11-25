@@ -1,0 +1,9 @@
+{
+  "name": "circomlib",
+  "version": "2.0.5",
+  "archive": "https://registry.npmjs.org/circomlib/-/circomlib-2.0.5.tgz",
+  "integrity": "sha512-O7NQ8OS+J4eshBuoy36z/TwQU0YHw8W3zxZcs4hVwpEll3e4hDm3mgkIPqItN8FDeLEKZFK3YeT/+k8TiLF3/A==",
+  "license": "GPL-3.0",
+  "license_text": "https://www.gnu.org/licenses/gpl-3.0.txt",
+  "circom_sources": 57
+}

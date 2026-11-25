@@ -1,0 +1,31 @@
+{
+  "small_domain_exhaustive_greatest_schedule_check": true,
+  "rows": 337,
+  "matrix": {
+    "causal": {
+      "late": {
+        "decisions": 3033,
+        "total_release_units": 204047100
+      },
+      "any": {
+        "decisions": 3033,
+        "total_release_units": 203512552
+      },
+      "strict_decisions": 880,
+      "strict_histories": 292
+    },
+    "sealed": {
+      "late": {
+        "decisions": 3033,
+        "total_release_units": 204416716
+      },
+      "any": {
+        "decisions": 3033,
+        "total_release_units": 203513046
+      },
+      "strict_decisions": 1055,
+      "strict_histories": 292
+    }
+  },
+  "strict_decisions": 1055
+}

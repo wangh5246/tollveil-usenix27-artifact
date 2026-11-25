@@ -1,0 +1,18 @@
+\section{Introduction}
+\label{sec:intro}
+
+A private road-usage charging service can reserve a trip's maximum fee at entry. The reserve stays unnecessarily high as authenticated partial evidence rules out expensive routes. Returning part of it early benefits a shared fleet account, but the ledger has to establish what remains payable. An unverified local estimate can enable underpayment, and a sequence of correct refunds can itself identify a route.
+
+Consider a trip whose signed checkpoint rules out some long transitions and reveals one previously traveled edge to its prover. The charger should learn that the remaining escrow covers every walk compatible with that information. Local maxima taken independently can combine incompatible edges. Computing the coupled maximum inside a proof from a dense graph can be expensive. TollVeil uses a primal walk and a succinct collection of upper inequalities that certify an exact maximum. On the Rome grid, horizontal and vertical successor sets factor the most common adjacency relation. On a corridor with enrolled boundary anchors, a change in one gap can be verified against a subtree path.
+
+Refunds also require a policy. A user deciding how much to release can see current authentic facts. An external party may affect when the terminal key is revealed. The greatest finite-support schedule depends on both. Linking release sites that share these observations yields a graph propagation problem, with safety bounds supplied by the certified maximum.
+
+Our contributions can be summarized as follows.
+
+\begin{itemize}
+\item A one-sided exact envelope certificate with two-dimensional factorization for the urban grid and local Merkle-sum continuation for fixed anchors.
+\item A characterization of the greatest safe monotone release under explicit causal and terminal equalities, with a separate model for budgeted amount disclosure.
+\item A precommit proof-gated escrow replay with authority, retry and rejection checks on two archived corridors. The evaluation measures the same release policies in an amount experiment and timestamp-aligned pool replay.
+\end{itemize}
+
+Section~\ref{sec:model} defines the parties and games. Sections~\ref{sec:bellman} and~\ref{sec:stopping} develop envelope certification and release policy. Section~\ref{sec:protocol} presents the ledger composition. Section~\ref{sec:eval} reports the experiment and Section~\ref{sec:discussion} discusses its scope.

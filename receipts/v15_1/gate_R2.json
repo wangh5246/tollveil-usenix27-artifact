@@ -1,0 +1,43 @@
+{
+  "build_manifest_sha256": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb",
+  "corridors": {
+    "m06a": {
+      "conservation_errors": 0,
+      "ledger_receipt_sha256": "edf9d9fb2e0c5ba3f8928c09e31db267b8b0eccb9ddc45b84d42478a7ae4286e",
+      "no_balance_changes_for_controls": [
+        "altered_proof",
+        "concurrent_close",
+        "idempotent_new_proof",
+        "illegal_early_close",
+        "insufficient_deposit",
+        "unauthorized_bulletin",
+        "wrong_relation_key"
+      ],
+      "sessions": 36,
+      "verified_before_commit": 108
+    },
+    "rome": {
+      "conservation_errors": 0,
+      "ledger_receipt_sha256": "0376674132c1dc84381b83444fbe390eaf7f228b84a3d9fd37caabec9ae410a6",
+      "no_balance_changes_for_controls": [
+        "altered_proof",
+        "concurrent_close",
+        "idempotent_new_proof",
+        "illegal_early_close",
+        "insufficient_deposit",
+        "unauthorized_bulletin",
+        "wrong_relation_key"
+      ],
+      "sessions": 55,
+      "verified_before_commit": 220
+    }
+  },
+  "gap": {
+    "certify_and_close_total_ms": 1361.152708819434,
+    "digest_close_total_ms": 208.11991695976258,
+    "ledger_receipt_sha256": "59ef1f77b8d69c1260c14f9c1a794fbd24b88924bfa2835e1503b95a15d60475"
+  },
+  "gate": "R2",
+  "setup_manifest_sha256": "d137fd351d9c8c41ade32d1dd3031d371bd8402cbdd3b0ce4171de62b2446043",
+  "status": "PASS"
+}

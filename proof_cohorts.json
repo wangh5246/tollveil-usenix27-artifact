@@ -1,0 +1,44 @@
+{
+  "allowed_relations": {
+    "anchored_gap": [
+      "vkeys/gap_close_digest_vkey.json",
+      "vkeys/gap_close_raw_vkey.json",
+      "vkeys/gap_local_16_vkey.json"
+    ],
+    "anchored_gap_close_matched": [
+      "vkeys/gap_close_digest_vkey.json",
+      "vkeys/gap_close_raw_vkey.json",
+      "vkeys/gap_close_stateful_vkey.json"
+    ],
+    "m06a_corridor": [
+      "vkeys/m06a_close_vkey.json",
+      "vkeys/m06a_update_vkey.json"
+    ],
+    "rome_396_holdout": [
+      "vkeys/causal_close_vkey.json",
+      "vkeys/causal_update_vkey.json"
+    ],
+    "rome_hold_fixture": [
+      "vkeys/causal_close_vkey.json",
+      "vkeys/causal_update_vkey.json"
+    ],
+    "streaming_obu_slot_auth": [
+      "vkeys/stream_slot_auth_vkey.json"
+    ],
+    "synthetic_scale_setup": [
+      "vkeys/scale_N16_vkey.json",
+      "vkeys/scale_N32_vkey.json",
+      "vkeys/scale_N64_vkey.json",
+      "vkeys/scale_N8_vkey.json"
+    ]
+  },
+  "counts": {
+    "anchored_gap": 3,
+    "anchored_gap_close_matched": 3,
+    "m06a_corridor": 108,
+    "rome_396_holdout": 220,
+    "rome_hold_fixture": 8,
+    "streaming_obu_slot_auth": 1,
+    "synthetic_scale_setup": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "one eligible common state, fault and bulletin, proof and pairing components",
+  "opened_by_gap": [
+    3,
+    3,
+    3,
+    4
+  ],
+  "release_build_sha256": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb",
+  "verified_arms": {
+    "gap_close_raw": {
+      "witness_ms": 200.439,
+      "prove_ms": 737.26,
+      "serialized_proof_public_bytes": 1041,
+      "pairing_ms": 11.887208,
+      "proof_sha256": "0f37443a8817ea283a061d1f09af3b83b52a034104798d2340d1461042c0787c",
+      "public_sha256": "6e59a835c79b9f4176a49819ada4a9f87333644a7fed56741c353825b689820e"
+    },
+    "gap_close_stateful": {
+      "witness_ms": 123.484,
+      "prove_ms": 246.618,
+      "serialized_proof_public_bytes": 1040,
+      "pairing_ms": 8.96875,
+      "proof_sha256": "1d5016ce88fae303e377c5325cd69823abee7664cd7719a139ee95cc6ae66d83",
+      "public_sha256": "be021e0d7a7d50acba56d609af9fe3e36e0c65da63d63a975fef6f6e6ed5c3d5"
+    },
+    "gap_close_digest": {
+      "witness_ms": 35.431,
+      "prove_ms": 43.339,
+      "serialized_proof_public_bytes": 1041,
+      "pairing_ms": 8.535875,
+      "proof_sha256": "17491991f89dba3689362f2afa0e0dbfda8aeeef03fb364c01412a7a03436b1d",
+      "public_sha256": "c1f017e1265a19f833e77348fafced1f872e1901eeb4471570d5a24ed6d62d71"
+    }
+  }
+}

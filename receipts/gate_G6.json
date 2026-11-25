@@ -1,0 +1,10 @@
+{
+  "record": "G6",
+  "refs": {
+    "compiled_circuits_manifest.json": "391f01e43d234fb59912e3fbf9e03c175644b8298795f210b989801fca1d7bcb",
+    "proof_cohorts.json": "4f5e43d568f5ee8120e930f135096f73f682222f2e12ff3f5bf547bb631dd911",
+    "run_all_checks.sh": "404f2eff2211d52cd6845a8bc36b63a6beff1ed425278b79e746b9a2e62f7d69",
+    "third_party/circomlib/LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "release": "corridor-escrow-20261125"
+}

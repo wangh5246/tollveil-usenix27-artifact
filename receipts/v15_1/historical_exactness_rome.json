@@ -1,0 +1,10 @@
+{
+  "authenticated_unopened_long": 12,
+  "authenticated_unopened_short": 2684,
+  "compiled_calculator": "Circom C++",
+  "compiled_witness_wire_checks": 3033,
+  "equal": 3033,
+  "genesis_exact": 337,
+  "record_sha256": "26566db91101396cc4af51410602cdafbe5ad802e351f4bd5e13a1bbadd5b13d",
+  "traces": 337
+}

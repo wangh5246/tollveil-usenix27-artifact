@@ -1,0 +1,10 @@
+{
+  "rome": {
+    "consistent_prefix": "ACCEPTED",
+    "changed_signed_prefix": "REJECTED"
+  },
+  "m06a": {
+    "consistent_prefix": "ACCEPTED",
+    "changed_signed_prefix": "REJECTED"
+  }
+}

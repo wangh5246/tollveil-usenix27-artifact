@@ -1,0 +1,23 @@
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading r1cs
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading tauG2
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading alphatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Reading betatauG1
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit hash: 
+		695a17d7 2f984b85 c3367679 72b2463a
+		b2c4b561 b5761d73 bc2bb569 9459c78a
+		05e035bd e5df05b7 10f10927 314f4d29
+		2bfdc0ce 9fd4ed53 38fd8701 0bb818fc
+[32;22m[INFO]  [39;1msnarkJS[0m: Circuit Hash: 
+		695a17d7 2f984b85 c3367679 72b2463a
+		b2c4b561 b5761d73 bc2bb569 9459c78a
+		05e035bd e5df05b7 10f10927 314f4d29
+		2bfdc0ce 9fd4ed53 38fd8701 0bb818fc
+[32;22m[INFO]  [39;1msnarkJS[0m: -------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m: contribution #1 TollVeil relation contribution:
+		828ca333 45540dae 930e65b5 65243c18
+		fdd26bfc 3603b82d 767f24ef 299cad6a
+		1e190d62 0e7b8df2 76f72bd8 c16540fe
+		634bacff e83b3c05 18188861 ca696b03
+[32;22m[INFO]  [39;1msnarkJS[0m: -------------------------
+[32;22m[INFO]  [39;1msnarkJS[0m: ZKey Ok!
